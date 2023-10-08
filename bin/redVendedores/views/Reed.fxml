@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="795.0" prefWidth="1302.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.ReedController">
+   <children>
+      <AnchorPane layoutY="-1.0" prefHeight="803.0" prefWidth="407.0" style="-fx-background-color: #fd7b7b;" />
+      <AnchorPane layoutX="-5.0" layoutY="-5.0" prefHeight="809.0" prefWidth="1312.0">
+         <children>
+            <AnchorPane layoutX="47.0" layoutY="235.0" prefHeight="490.0" prefWidth="334.0" style="-fx-background-color: #EAEDED; -fx-background-radius: 30 30 30 30;">
+               <children>
+                  <Label layoutX="108.0" layoutY="300.0" text="Cód." textFill="#fd7b7b">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="25.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="343.0" text="Estado:" textFill="#fd7b7b">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="5.0" layoutY="386.0" text="Categoría:" textFill="#fd7b7b">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="24.0" />
+                     </font>
+                  </Label>
+                  <HBox layoutX="-24.0" layoutY="6.0" prefHeight="58.0" prefWidth="352.0">
+                     <children>
+                        <TextField fx:id="txtNombreProducto" alignment="CENTER" prefHeight="55.0" prefWidth="257.0" promptText="Nombre Producto" style="-fx-background-color: rgba(0,0,0,0); -fx-text-fill: #943131;">
+                           <font>
+                              <Font name="Cambria" size="23.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="txtPrecio" prefHeight="55.0" prefWidth="125.0" promptText="Precio" style="-fx-background-color: rgba(0,0,0,0); -fx-text-fill: #0676b7;">
+                           <font>
+                              <Font name="Cambria" size="26.0" />
+                           </font>
+                        </TextField>
+                     </children>
+                  </HBox>
+                  <ImageView fx:id="imagenProducto" fitHeight="234.0" fitWidth="225.0" layoutX="56.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true" />
+                  <TextField fx:id="txtCodigo" layoutX="152.0" layoutY="293.0" prefHeight="43.0" prefWidth="154.0" promptText="Código" style="-fx-background-color: rgba(0,0,0,0);">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtCategoria" layoutX="108.0" layoutY="379.0" prefHeight="43.0" prefWidth="154.0" promptText="Categoría" style="-fx-background-color: rgba(0,0,0,0);">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtEstado" layoutX="92.0" layoutY="336.0" prefHeight="43.0" prefWidth="154.0" promptText="Estado" style="-fx-background-color: rgba(0,0,0,0);">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </TextField>
+                  <ImageView fitHeight="43.0" fitWidth="48.0" layoutX="5.0" layoutY="433.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../imagenes/pngegg%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="txtFecha" layoutX="58.0" layoutY="439.0" prefHeight="32.0" prefWidth="218.0">
+                     <font>
+                        <Font name="Cambria" size="22.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <ImageView fx:id="iconComentarios" fitHeight="49.0" fitWidth="58.0" layoutX="137.0" layoutY="738.0" onMouseClicked="#comentariosEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/comentario.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="iconMeGusta" fitHeight="48.0" fitWidth="85.0" layoutX="203.0" layoutY="739.0" onMouseClicked="#meGustaEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/pinklike_116094.png" />
+               </image>
+            </ImageView>
+            <ScrollPane fx:id="scroll" layoutX="457.0" layoutY="168.0" prefHeight="638.0" prefWidth="546.0" style="-fx-background-color: rgba(0,0,0,0);">
+               <content>
+                  <GridPane fx:id="grid" prefHeight="0.0" prefWidth="0.0">
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" />
+                     </rowConstraints>
+                  </GridPane>
+               </content>
+            </ScrollPane>
+            <AnchorPane layoutX="475.0" prefHeight="66.0" prefWidth="695.0" style="-fx-background-color: #EBF5FB; -fx-background-radius: 30 30 30 30;">
+               <children>
+                  <ImageView fx:id="iconCrearProducto" fitHeight="34.0" fitWidth="43.0" layoutX="13.0" layoutY="18.0" onMouseClicked="#crearProducto2Event" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../imagenes/agregar.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="crearProducto" layoutX="56.0" layoutY="23.0" onMouseClicked="#crearProductoEvent" text="Crear producto ">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="iconActualizarProducto" fitHeight="32.0" fitWidth="32.0" layoutX="221.0" layoutY="18.0" onMouseClicked="#actualizarProducto2Event" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../imagenes/actualizar.png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="actualizarProducto" layoutX="262.0" layoutY="22.0" onMouseClicked="#actualizarProductoEvent" text="Actualizar producto">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="iconEliminarProducto" fitHeight="37.0" fitWidth="34.0" layoutX="468.0" layoutY="15.0" onMouseClicked="#eliminarProducto2Event" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../imagenes/basura%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="eliminarProducto" layoutX="514.0" layoutY="20.0" onMouseClicked="#eliminarProductoEvent" text="Eliminar producto">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="21.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label fx:id="eliminarProducto11" layoutX="1036.0" layoutY="751.0" onMouseClicked="#eliminarProductoEvent" text="Tablero de control">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="21.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="iconCerrarS" fitHeight="43.0" fitWidth="43.0" layoutX="1255.0" layoutY="754.0" onMouseClicked="#cerrarSesion2Event" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/cerrar-sesion.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nombreVendedor" layoutX="576.0" layoutY="100.0" prefHeight="42.0" prefWidth="307.0">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="26.0" />
+               </font>
+            </Label>
+            <AnchorPane layoutX="1015.0" layoutY="439.0" prefHeight="307.0" prefWidth="297.0" style="-fx-background-color: #FDF2E9; -fx-background-radius: 30 30 30 30;">
+               <children>
+                  <TabPane layoutX="18.0" layoutY="7.0" prefHeight="293.0" prefWidth="261.0" style="-fx-background-color: rgba(0,0,0,0); -fx-border-radius: 30 30 30 30;" tabClosingPolicy="UNAVAILABLE">
+                     <tabs>
+                        <Tab style="-fx-border-color: #FFFFFF; -fx-background-color: #FDF2E9; -fx-font-family: &quot;Tw Cen MT&quot;;" text="Productos publicados ">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #F2F3F4;">
+                                 <children>
+                                    <TableView fx:id="tableProductos" layoutX="8.0" layoutY="4.0" prefHeight="249.0" prefWidth="232.0">
+                                       <columns>
+                                          <TableColumn fx:id="columnProducto" minWidth="0.0" prefWidth="384.0" text="Producto" />
+                                       </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                        <Tab style="-fx-border-color: #ffffff; -fx-background-color: #FEF5E7; -fx-font-family: &quot;Tw Cen MT&quot;;" text="Solicitudes">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="349.0" prefWidth="274.0">
+                                 <children>
+                                    <TableView fx:id="tableSolicitudes" layoutX="6.0" layoutY="5.0" prefHeight="244.0" prefWidth="245.0">
+                                       <columns>
+                                          <TableColumn fx:id="columnSolicitudes" prefWidth="362.0" style="-fx-font-family: &quot;Tw Cen MT&quot;;" text="Solicitudes Pend" />
+                                       </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                     </tabs>
+                  </TabPane>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="1063.0" layoutY="94.0" prefHeight="343.0" prefWidth="235.0" style="-fx-background-color: #EAEDED; -fx-background-radius: 30 30 30 30;">
+               <children>
+                  <Label fx:id="eliminarProducto1" layoutX="14.0" layoutY="14.0" onMouseClicked="#eliminarProductoEvent" text="Contactos">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="21.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="32.0" fitWidth="34.0" layoutX="100.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../imagenes/charla.png" />
+                     </image>
+                  </ImageView>
+                  <TableView fx:id="tableContactos" layoutX="18.0" layoutY="49.0" prefHeight="265.0" prefWidth="200.0" style="-fx-background-color: rgba(0,0,0,0); -fx-font-family: &quot;Tw Cen MT&quot;; -fx-border-color: -fx-box-border -fx-box-border transparent transparent;">
+                     <columns>
+                        <TableColumn fx:id="columnNombre" prefWidth="199.0" style="-fx-background-color: rgba(0,0,0,0); -fx-font-family: &quot;Tw Cen MT&quot;; fx-border-color: -fx-box-border -fx-box-border transparent transparent;" />
+                     </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+            <ImageView fitHeight="32.0" fitWidth="34.0" layoutX="1200.0" layoutY="747.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/gestion-de-archivos.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <ImageView fitHeight="193.0" fitWidth="756.0" layoutX="-163.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen4.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="txtBuscarVendedor" alignment="CENTER" layoutX="32.0" layoutY="171.0" onKeyPressed="#buscarEvent" prefHeight="43.0" prefWidth="366.0" promptText="Buscar vendedores" style="-fx-background-color: #FFFFFF; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+         <font>
+            <Font name="Tw Cen MT" size="23.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="32.0" fitWidth="36.0" layoutX="51.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/icone-loupe-gris.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="1172.0" prefHeight="66.0" prefWidth="143.0" style="-fx-background-color: #EAEDED;">
+         <children>
+            <ImageView fx:id="notificaciones" fitHeight="43.0" fitWidth="43.0" layoutX="8.0" layoutY="12.0" onMouseClicked="#notificacionesEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/activo.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="usuario" fitHeight="43.0" fitWidth="43.0" layoutX="71.0" layoutY="13.0" onMouseClicked="#usuarioEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/usuario.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="43.0" fitWidth="198.0" layoutX="449.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/VVVVV.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

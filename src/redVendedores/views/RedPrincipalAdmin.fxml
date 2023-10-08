@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="865.0" prefWidth="1290.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.RedPrincipalAdminController">
+   <children>
+      <Separator layoutX="-19.0" layoutY="183.0" orientation="VERTICAL" prefHeight="751.0" prefWidth="19.0" />
+      <ImageView fitHeight="527.0" fitWidth="956.0" layoutX="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Union%20(2)%20-%20copia.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="459.0" fitWidth="763.0" layoutX="529.0" layoutY="412.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Union%20(1).png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="458.0" layoutX="947.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen4.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="78.0" fitWidth="77.0" layoutX="1135.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen3.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="8.0" layoutY="10.0" prefHeight="845.0" prefWidth="1280.0">
+         <children>
+            <TableView fx:id="tableProductos" layoutX="21.0" layoutY="534.0" prefHeight="261.0" prefWidth="862.0" style="-fx-background-color: #FFFFFF; -fx-font-family: &quot;Tw Cen MT&quot;; -fx-border-color: #65727c;">
+               <columns>
+                  <TableColumn fx:id="columnProducto" prefWidth="147.0" text="Nombre producto" />
+                  <TableColumn fx:id="columnCodigo" prefWidth="112.0" text="Código" />
+                  <TableColumn fx:id="columnCategoria" prefWidth="136.0" text="Categoria" />
+                  <TableColumn fx:id="columnEstado" prefWidth="101.0" text="Estado" />
+                  <TableColumn fx:id="columnFechaHora" prefWidth="219.0" text="Fecha y hora de publicacion" />
+                  <TableColumn fx:id="columnPrecio" prefWidth="142.0" text="Precio" />
+               </columns>
+            </TableView>
+            <TableView fx:id="tableVendedores" layoutX="14.0" layoutY="114.0" prefHeight="243.0" prefWidth="769.0" style="-fx-background-color: #FFFFFF; -fx-font-family: &quot;Tw Cen MT&quot;; -fx-border-color: #65727c;">
+               <columns>
+                  <TableColumn fx:id="columnNombre" prefWidth="147.0" text="Nombres" />
+                  <TableColumn fx:id="columnApellidos" prefWidth="112.0" text="Apellidos" />
+                  <TableColumn fx:id="columnDocumento" prefWidth="142.0" text="N° de Documento" />
+                  <TableColumn fx:id="columnDireccion" prefWidth="136.0" text="Direccion" />
+                  <TableColumn fx:id="columnUsuario" prefWidth="101.0" text="Usuario" />
+                  <TableColumn fx:id="columnContrasenia" prefWidth="119.0" text="Contraseña" />
+               </columns>
+            </TableView>
+            <ImageView fitHeight="44.0" fitWidth="195.0" layoutX="305.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/Imagenrrrrr.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnActualizarVendedor" layoutX="154.0" layoutY="385.0" mnemonicParsing="false" onAction="#actualizarVendedorEvent" prefHeight="43.0" prefWidth="235.0" style="-fx-background-color: #65727c; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);" text="Actualizar vendedor" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="23.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnEliminarVendedor" layoutX="468.0" layoutY="388.0" mnemonicParsing="false" onAction="#eliminarVendedorEvent" prefHeight="37.0" prefWidth="235.0" style="-fx-background-color: #65727c; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);" text="Eliminar vendedor" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="23.0" />
+               </font>
+            </Button>
+            <ImageView fx:id="notificaciones" fitHeight="43.0" fitWidth="44.0" layoutX="14.0" layoutY="6.0" onMouseClicked="#notificacionEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/activo.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="usuario" fitHeight="44.0" fitWidth="54.0" layoutX="69.0" layoutY="6.0" onMouseClicked="#usuarioEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/usuario.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="iconCerrarS" fitHeight="51.0" fitWidth="54.0" layoutX="1218.0" layoutY="788.0" onMouseClicked="#cerrarSesion2Event" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/cerrar-sesion.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="usuario1" fitHeight="37.0" fitWidth="36.0" layoutX="480.0" layoutY="50.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/grupo.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="195.0" layoutX="313.0" layoutY="475.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/Imagen4RRRRR.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="usuario11" fitHeight="37.0" fitWidth="36.0" layoutX="480.0" layoutY="479.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/carrito-de-supermercado.png" />
+               </image>
+            </ImageView>
+            <AnchorPane layoutX="929.0" layoutY="176.0" prefHeight="600.0" prefWidth="351.0" style="-fx-background-color: #EBF5FB;">
+               <children>
+                  <ImageView fitHeight="60.0" fitWidth="174.0" layoutX="84.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../imagenes/cREA.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="24.0" layoutY="74.0" text="Datos personales" textFill="#fd7b7b">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtNombre" layoutX="8.0" layoutY="113.0" prefHeight="37.0" prefWidth="336.0" promptText="*Nombres" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
+                     <font>
+                        <Font name="Tw Cen MT" size="19.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtApellidos" layoutX="8.0" layoutY="163.0" prefHeight="37.0" prefWidth="336.0" promptText="*Apellidos" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
+                     <font>
+                        <Font name="Tw Cen MT" size="19.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtCedula" layoutX="8.0" layoutY="214.0" prefHeight="37.0" prefWidth="336.0" promptText="*N° de Documento" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
+                     <font>
+                        <Font name="Tw Cen MT" size="19.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtDireccion" layoutX="8.0" layoutY="263.0" prefHeight="37.0" prefWidth="336.0" promptText="*Direcccion" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
+                     <font>
+                        <Font name="Tw Cen MT" size="19.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="24.0" layoutY="345.0" text="Datos de ingreso" textFill="#fd7b7b">
+                     <font>
+                        <Font name="Tw Cen MT Bold" size="22.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="32.0" layoutY="393.0" text="Usuario">
+                     <font>
+                        <Font name="Tw Cen MT" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtDocumento" layoutX="32.0" layoutY="421.0" prefHeight="37.0" prefWidth="336.0" promptText="*N° de Documento" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
+                     <font>
+                        <Font name="Tw Cen MT" size="19.0" />
+                     </font>
+                  </TextField>
+                  <Label layoutX="32.0" layoutY="473.0" text="Contraseña">
+                     <font>
+                        <Font name="Tw Cen MT" size="18.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="txtContrasenia" layoutX="24.0" layoutY="494.0" prefHeight="37.0" prefWidth="336.0" promptText="*Contraseña" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
+                     <font>
+                        <Font name="Tw Cen MT" size="19.0" />
+                     </font>
+                  </TextField>
+                  <Button fx:id="btnCrearVendedor" layoutX="113.0" layoutY="549.0" mnemonicParsing="false" onAction="#crearVendedorEvent" prefHeight="37.0" prefWidth="158.0" style="-fx-background-color: #65727c; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);" text="Crear vendedor" textFill="WHITE">
+                     <font>
+                        <Font name="Tw Cen MT" size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

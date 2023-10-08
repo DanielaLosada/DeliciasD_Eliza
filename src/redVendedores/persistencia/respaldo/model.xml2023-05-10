@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_111" class="java.beans.XMLDecoder">
+ <object class="redVendedores.model.Red">
+  <void property="administrador">
+   <object class="redVendedores.model.Administrador">
+    <void property="contrasenia">
+     <string>DAX</string>
+    </void>
+    <void property="documento">
+     <string>10923870251</string>
+    </void>
+   </object>
+  </void>
+  <void property="listaVendedores">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="redVendedores.model.Vendedor" id="Vendedor0">
+      <void property="apellidos">
+       <string>Velez</string>
+      </void>
+      <void property="contrasenia">
+       <string>0000</string>
+      </void>
+      <void property="direccion">
+       <string>jskjdaf</string>
+      </void>
+      <void property="documento">
+       <string>12345</string>
+      </void>
+      <void property="nombre">
+       <string>Juan Esteban</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Vendedor" id="Vendedor1">
+      <void property="apellidos">
+       <string>Popayan</string>
+      </void>
+      <void property="contrasenia">
+       <string>abcd</string>
+      </void>
+      <void property="direccion">
+       <string>Cra 34 b/ Caldas</string>
+      </void>
+      <void property="documento">
+       <string>3335554</string>
+      </void>
+      <void property="nombre">
+       <string>Angelica Maria</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Vendedor" id="Vendedor2">
+      <void property="apellidos">
+       <string>Cadavid</string>
+      </void>
+      <void property="contrasenia">
+       <string>luchita</string>
+      </void>
+      <void property="direccion">
+       <string>Apto 1345 Edif Palma e Hoyo</string>
+      </void>
+      <void property="documento">
+       <string>987654</string>
+      </void>
+      <void property="nombre">
+       <string>Luisa Fernanda</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Vendedor" id="Vendedor3">
+      <void property="apellidos">
+       <string>Perez</string>
+      </void>
+      <void property="contrasenia">
+       <string>dospordos</string>
+      </void>
+      <void property="direccion">
+       <string>Cra 24 #89</string>
+      </void>
+      <void property="documento">
+       <string>654321</string>
+      </void>
+      <void property="nombre">
+       <string>Pepito Pepe</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="redVendedores.model.Vendedor" id="Vendedor4">
+      <void property="apellidos">
+       <string>Gajo</string>
+      </void>
+      <void property="contrasenia">
+       <string>juasjuas</string>
+      </void>
+      <void property="direccion">
+       <string>Finca Los Rios</string>
+      </void>
+      <void property="documento">
+       <string>775545</string>
+      </void>
+      <void property="nombre">
+       <string>Edgar Alonso</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="nombre">
+   <string>Shoppify</string>
+  </void>
+ </object>
+<void class="redVendedores.model.Producto" id="Producto0">
+ <void property="codigo">
+  <string>3246</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="nombre">
+  <string>Sanduchera</string>
+ </void>
+ <void property="precio">
+  <string>200.000</string>
+ </void>
+ <void property="categoria">
+  <string>Electrodomesticos</string>
+ </void>
+</void>
+<void class="redVendedores.model.Vendedor" id="Field0" method="getField">
+ <string>listaProductos</string>
+ <void id="ArrayList0" method="get">
+  <object idref="Vendedor1"/>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Electrodomesticos</string>
+    </void>
+    <void property="codigo">
+     <string>4563</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="nombre">
+     <string>Microondas</string>
+    </void>
+    <void property="precio">
+     <string>1.000.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Electrodomesticos</string>
+    </void>
+    <void property="codigo">
+     <string>5678</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="nombre">
+     <string>Nevera</string>
+    </void>
+    <void property="precio">
+     <string>1.800.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Electrodomesticos</string>
+    </void>
+    <void property="codigo">
+     <string>1290</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="nombre">
+     <string>Estufa</string>
+    </void>
+    <void property="precio">
+     <string>600.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Electrodomesticos</string>
+    </void>
+    <void property="codigo">
+     <string>8655</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="nombre">
+     <string>Televisor 50&apos;&apos; </string>
+    </void>
+    <void property="precio">
+     <string>2.000.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Producto0"/>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Electrodomesticos</string>
+    </void>
+    <void property="codigo">
+     <string>8976</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="nombre">
+     <string>Lavadora</string>
+    </void>
+    <void property="precio">
+     <string>1.500.000</string>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList0"/>
+<void class="redVendedores.model.Producto" id="Producto1">
+ <void property="codigo">
+  <string>1278</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="nombre">
+  <string>Metro</string>
+ </void>
+ <void property="precio">
+  <string>79.000</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto2">
+ <void property="codigo">
+  <string>1236</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="nombre">
+  <string>Collar</string>
+ </void>
+ <void property="precio">
+  <string>60.000</string>
+ </void>
+ <void property="categoria">
+  <string>Accesorios</string>
+ </void>
+</void>
+<void class="redVendedores.model.Vendedor" id="Field1" method="getField">
+ <string>listaProductos</string>
+ <void id="ArrayList1" method="get">
+  <object idref="Vendedor0"/>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Calzado</string>
+    </void>
+    <void property="codigo">
+     <string>5656</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Vans</string>
+    </void>
+    <void property="precio">
+     <string>220.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Calzado</string>
+    </void>
+    <void property="codigo">
+     <string>7979</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Adidas Forum low</string>
+    </void>
+    <void property="precio">
+     <string>280.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Calzado</string>
+    </void>
+    <void property="codigo">
+     <string>4656</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Puma</string>
+    </void>
+    <void property="precio">
+     <string>200.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Calzado</string>
+    </void>
+    <void property="codigo">
+     <string>7777</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>New balance</string>
+    </void>
+    <void property="precio">
+     <string>160.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Calzado</string>
+    </void>
+    <void property="codigo">
+     <string>2321</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Gucci</string>
+    </void>
+    <void property="precio">
+     <string>500.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Calzado</string>
+    </void>
+    <void property="codigo">
+     <string>88888</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Nike Air force 1</string>
+    </void>
+    <void property="precio">
+     <string>150.000</string>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList1"/>
+<void class="redVendedores.model.Producto" id="Producto3">
+ <void property="codigo">
+  <string>3422</string>
+ </void>
+ <void property="estado">
+  <string>Publicado</string>
+ </void>
+ <void property="nombre">
+  <string>Martillo</string>
+ </void>
+ <void property="precio">
+  <string>38.000</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto4">
+ <void property="codigo">
+  <string>2312</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="nombre">
+  <string>Llave inglesa</string>
+ </void>
+ <void property="precio">
+  <string>36.000</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto5">
+ <void property="codigo">
+  <string>9087</string>
+ </void>
+ <void property="estado">
+  <string>Publicado</string>
+ </void>
+ <void property="nombre">
+  <string>Pulsera</string>
+ </void>
+ <void property="precio">
+  <string>50.000</string>
+ </void>
+ <void property="categoria">
+  <string>Accesorios</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto6">
+ <void property="codigo">
+  <string>1289</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="nombre">
+  <string>Destornillador</string>
+ </void>
+ <void property="precio">
+  <string>45.000</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto7">
+ <void property="codigo">
+  <string>3256</string>
+ </void>
+ <void property="estado">
+  <string>Publicado</string>
+ </void>
+ <void property="nombre">
+  <string>Camiseta hombre</string>
+ </void>
+ <void property="precio">
+  <string>60.000</string>
+ </void>
+ <void property="categoria">
+  <string>Ropa</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto8">
+ <void property="codigo">
+  <string>4578</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="nombre">
+  <string>Sudadera</string>
+ </void>
+ <void property="precio">
+  <string>110.000</string>
+ </void>
+ <void property="categoria">
+  <string>Ropa</string>
+ </void>
+</void>
+<void class="redVendedores.model.Vendedor" id="Field2" method="getField">
+ <string>listaProductos</string>
+ <void id="ArrayList2" method="get">
+  <object idref="Vendedor3"/>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Ropa</string>
+    </void>
+    <void property="codigo">
+     <string>2345</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="nombre">
+     <string>Blusa mujer</string>
+    </void>
+    <void property="precio">
+     <string>50.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Ropa</string>
+    </void>
+    <void property="codigo">
+     <string>1289</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Jean rotos unisex</string>
+    </void>
+    <void property="precio">
+     <string>190.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Ropa</string>
+    </void>
+    <void property="codigo">
+     <string>9865</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Falda cuero</string>
+    </void>
+    <void property="precio">
+     <string>178.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Ropa</string>
+    </void>
+    <void property="codigo">
+     <string>7879</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Chaqueta jean hombre</string>
+    </void>
+    <void property="precio">
+     <string>250.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Producto8"/>
+  </void>
+  <void method="add">
+   <object idref="Producto7"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList2"/>
+<void class="redVendedores.model.Vendedor" id="Field3" method="getField">
+ <string>listaProductos</string>
+ <void id="ArrayList3" method="get">
+  <object idref="Vendedor2"/>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Accesorios</string>
+    </void>
+    <void property="codigo">
+     <string>7809</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Anillo</string>
+    </void>
+    <void property="precio">
+     <string>600.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Producto5"/>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Accesorios</string>
+    </void>
+    <void property="codigo">
+     <string>1256</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Tobillera</string>
+    </void>
+    <void property="precio">
+     <string>30.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Producto2"/>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Accesorios</string>
+    </void>
+    <void property="codigo">
+     <string>9087</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="nombre">
+     <string>Dije</string>
+    </void>
+    <void property="precio">
+     <string>25.000</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Joyas</string>
+    </void>
+    <void property="codigo">
+     <string>6541</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="nombre">
+     <string>Candongas</string>
+    </void>
+    <void property="precio">
+     <string>60.000</string>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList3"/>
+<void class="redVendedores.model.Producto" id="Producto9">
+ <void property="codigo">
+  <string>2342</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="nombre">
+  <string>Alicate</string>
+ </void>
+ <void property="precio">
+  <string>29.000</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto10">
+ <void property="codigo">
+  <string>1092</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="nombre">
+  <string>Serrucho</string>
+ </void>
+ <void property="precio">
+  <string>100.000</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Vendedor" id="Field4" method="getField">
+ <string>listaProductos</string>
+ <void id="ArrayList4" method="get">
+  <object idref="Vendedor4"/>
+  <void method="add">
+   <object idref="Producto6"/>
+  </void>
+  <void method="add">
+   <object idref="Producto9"/>
+  </void>
+  <void method="add">
+   <object idref="Producto10"/>
+  </void>
+  <void method="add">
+   <object idref="Producto1"/>
+  </void>
+  <void method="add">
+   <object idref="Producto4"/>
+  </void>
+  <void method="add">
+   <object idref="Producto3"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList4"/>
+</java>

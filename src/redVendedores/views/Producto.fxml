@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onMousePressed="#click" style="-fx-background-radius: 30 30 30 30;" stylesheets="@../values/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.ProductoController">
+   <children>
+      <VBox alignment="TOP_CENTER" layoutX="63.0" layoutY="8.0" prefHeight="215.0" prefWidth="225.0" style="-fx-background-radius: 30 30 30 30; -fx-effect: rgba(0,0,0,0);" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="58.0" prefWidth="352.0">
+               <children>
+                  <TextField fx:id="txtNombreProducto" alignment="CENTER" prefHeight="55.0" prefWidth="200.0" promptText="Nombre Producto" style="-fx-background-color: rgba(0,0,0,0); -fx-text-fill: #943131;">
+                     <font>
+                        <Font name="Cambria" size="15.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtPrecio" prefHeight="55.0" prefWidth="143.0" promptText="Precio" style="-fx-background-color: rgba(0,0,0,0); -fx-text-fill: #000000;">
+                     <font>
+                        <Font name="Cambria Bold" size="18.0" />
+                     </font>
+                  </TextField>
+               </children>
+            </HBox>
+            <ImageView fx:id="imagen" fitHeight="122.0" fitWidth="152.0" pickOnBounds="true" preserveRatio="true" style="-fx-effect: rgba(0,0,0,0);" />
+         </children>
+      </VBox>
+   </children>
+   <styleClass>
+      <String fx:value="fruit-item" />
+      <String fx:value="shadow" />
+   </styleClass>
+</AnchorPane>

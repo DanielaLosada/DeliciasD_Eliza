@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="516.0" prefWidth="494.0" style="-fx-background-color: #ffffff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.ChatController">
+   <children>
+      <ImageView fitHeight="697.0" fitWidth="492.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../RedVendedoresV5/src/imagenes/8570f6339d3189c96e340d47a581d3b8.jpg" />
+         </image></ImageView>
+      <AnchorPane layoutX="-8.0" layoutY="8.0" prefHeight="507.0" prefWidth="500.0">
+         <children>
+            <AnchorPane layoutX="6.0" layoutY="-14.0" prefHeight="76.0" prefWidth="494.0" style="-fx-background-color: EAEDED;">
+               <children>
+                  <ImageView fitHeight="76.0" fitWidth="68.0" layoutX="206.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../imagenes/pngwing.com%20(1).png" />
+                     </image>
+                  </ImageView>
+                  <Label fx:id="devolver" layoutX="4.0" layoutY="22.0" onMouseClicked="#devolverEvent" prefHeight="27.0" prefWidth="96.0" text=" &lt; Back" textFill="#0676b7">
+                     <font>
+                        <Font name="Tw Cen MT" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="387.0" layoutY="22.0" prefHeight="27.0" prefWidth="103.0" text="Contactos" textFill="#0676b7">
+                     <font>
+                        <Font name="Tw Cen MT" size="24.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <TextField layoutX="66.0" layoutY="445.0" prefHeight="49.0" prefWidth="368.0" promptText="SMS/MMS" style="-fx-background-color: #ffffff; -fx-background-radius: 30 30 30 30;">
+               <font>
+                  <Font name="Tw Cen MT" size="27.0" />
+               </font>
+            </TextField>
+            <ImageView fx:id="enviar" fitHeight="37.0" fitWidth="38.0" layoutX="443.0" layoutY="452.0" onMouseClicked="#enviarEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../RedVendedoresV5/src/imagenes/enviar-mensaje.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="37.0" fitWidth="38.0" layoutX="21.0" layoutY="452.0" onMouseClicked="#camaraEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../RedVendedoresV5/src/imagenes/camara-reflex-digital.png" />
+               </image>
+            </ImageView>
+            <TextField fx:id="campoMensaje" alignment="TOP_LEFT" layoutX="40.0" layoutY="81.0" prefHeight="346.0" prefWidth="430.0" promptText=". . . " style="-fx-background-radius: 30 30 30 0;">
+               <font>
+                  <Font name="Tw Cen MT" size="25.0" />
+               </font>
+            </TextField>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

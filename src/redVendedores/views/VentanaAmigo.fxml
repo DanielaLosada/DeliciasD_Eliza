@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="961.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.VentanaAmigoController">
+   <children>
+      <Label fx:id="fechaHoraPublicacion" layoutX="621.0" layoutY="438.0" prefHeight="24.0" prefWidth="127.0">
+         <font>
+            <Font name="Tw Cen MT" size="19.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="-1.0" layoutY="-11.0" prefHeight="598.0" prefWidth="961.0">
+         <children>
+            <ImageView fitHeight="375.0" fitWidth="1173.0" layoutX="-3.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/Union%20(3)%20-%20copia.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="usuario" fitHeight="62.0" fitWidth="65.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#usuarioEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/usuario.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nombreAmigo" layoutX="86.0" layoutY="27.0" prefHeight="37.0" prefWidth="307.0" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="29.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="devolver" fitHeight="42.0" fitWidth="37.0" layoutX="10.0" layoutY="559.0" onMouseClicked="#devolverEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/flecha-a-la-izquierda-de-la-linea.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="imagenProducto" fitHeight="234.0" fitWidth="178.0" layoutX="398.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="44.0" fitWidth="195.0" layoutX="404.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/Imagen4RRRRR.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="meGusta" fitHeight="54.0" fitWidth="49.0" layoutX="414.0" layoutY="425.0" onMouseClicked="#meGustaEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/pinklike_116094.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="comentario" fitHeight="49.0" fitWidth="49.0" layoutX="515.0" layoutY="425.0" onMouseClicked="#ComentarioEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/comentario.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="nombreProducto" alignment="CENTER" layoutX="382.0" layoutY="390.0" prefHeight="24.0" prefWidth="211.0" text="Nombre del producto" textAlignment="CENTER">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="21.0" />
+               </font>
+            </Label>
+            <TableView fx:id="tableProductosAmigos" layoutX="76.0" layoutY="181.0" prefHeight="293.0" prefWidth="231.0" style="-fx-background-color: rgba(0,0,0,0); -fx-font-family: &quot;Tw Cen MT&quot;;">
+              <columns>
+                <TableColumn fx:id="columnNombreProducto" prefWidth="230.0" text="Productos disponibles" />
+              </columns>
+            </TableView>
+            <Label fx:id="numeroMeGustas" alignment="CENTER" layoutX="307.0" layoutY="494.0" prefHeight="34.0" prefWidth="263.0">
+               <font>
+                  <Font name="Tw Cen MT" size="23.0" />
+               </font>
+            </Label>
+            <Label layoutX="633.0" layoutY="149.0" text="Código:" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="637.0" layoutY="199.0" text="Precio:" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="633.0" layoutY="250.0" text="Categoría:" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="25.0" />
+               </font>
+            </Label>
+            <Label fx:id="codigo" layoutX="725.0" layoutY="149.0" prefHeight="28.0" prefWidth="151.0">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="precio" layoutX="714.0" layoutY="199.0" prefHeight="28.0" prefWidth="151.0">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="categoria" layoutX="747.0" layoutY="250.0" prefHeight="28.0" prefWidth="151.0">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="43.0" fitWidth="48.0" layoutX="637.0" layoutY="306.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/pngegg%20(1).png" />
+               </image>
+            </ImageView>
+            <Label fx:id="fechaHora" layoutX="692.0" layoutY="312.0" prefHeight="32.0" prefWidth="218.0">
+               <font>
+                  <Font name="Cambria" size="22.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnAgregarAmigo" layoutX="806.0" layoutY="536.0" mnemonicParsing="false" onAction="#agregarEvent" prefHeight="46.0" prefWidth="141.0" style="-fx-background-color: #0676b7; -fx-background-radius: 30 30 30 30;" text="Agregar (+)" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT Bold" size="22.0" />
+               </font>
+            </Button>
+            <Label layoutX="790.0" layoutY="19.0" text="ir al chat ">
+               <font>
+                  <Font name="Cambria Bold Italic" size="23.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="chat" fitHeight="49.0" fitWidth="49.0" layoutX="898.0" layoutY="9.0" onMouseClicked="#chatEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/charla11.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

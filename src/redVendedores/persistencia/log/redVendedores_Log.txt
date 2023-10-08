@@ -1,0 +1,10 @@
+sep 30, 2023 11:11:16 PM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: 12345,2023-09-30
+oct 03, 2023 10:03:28 AM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: 12345,2023-10-03
+oct 03, 2023 10:35:20 AM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: 12345,2023-10-03
+oct 03, 2023 10:41:24 AM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+ADVERTENCIA: inicio Sesion,Error de sesion del usuario,2023-10-03
+oct 03, 2023 10:42:55 AM redVendedores.persistencia.ArchivoUtil guardarRegistroLog
+INFORMACIÓN: inicio Sesion,Inicio de sesion del usuario: 12345,2023-10-03

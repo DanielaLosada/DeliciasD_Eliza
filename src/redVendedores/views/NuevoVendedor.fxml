@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="855.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.NuevoVendedorController">
+   <children>
+      <TextField fx:id="txtNombre" layoutX="568.0" layoutY="188.0" prefHeight="23.0" prefWidth="361.0" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa;">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtApellido" layoutX="568.0" layoutY="241.0" prefHeight="39.0" prefWidth="361.0" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa;">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtDocumento" layoutX="568.0" layoutY="297.0" prefHeight="29.0" prefWidth="361.0" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa;">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtDireccion" layoutX="570.0" layoutY="356.0" prefHeight="38.0" prefWidth="361.0" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa;">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </TextField>
+      <Label layoutX="468.0" layoutY="143.0" prefHeight="28.0" prefWidth="190.0" text="Datos personales" textFill="#fd7b7b">
+         <font>
+            <Font name="Tw Cen MT Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="468.0" layoutY="439.0" prefHeight="28.0" prefWidth="256.0" text="Datos de ingreso" textFill="#fd7b7b">
+         <font>
+            <Font name="Tw Cen MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtCedula" layoutX="468.0" layoutY="525.0" prefHeight="38.0" prefWidth="361.0" promptText="*Número de documento" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </TextField>
+      <Label layoutX="480.0" layoutY="491.0" text="Usuario" textFill="#0676b7">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="480.0" layoutY="592.0" text="Contraseña" textFill="#0676b7">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="133.0" fitWidth="140.0" layoutX="865.0" layoutY="708.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen3.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btnRegistrarse" layoutX="658.0" layoutY="685.0" mnemonicParsing="false" onAction="#registrarseEvent" onMouseClicked="#registrarseEvent" onMouseEntered="#mouseEvent" onMouseExited="#mouseEvent2" prefHeight="44.0" prefWidth="157.0" style="-fx-background-color: #999999; -fx-background-radius: 30 30 30 30;" text="Registrarse" textFill="WHITE">
+         <font>
+            <Font name="Tw Cen MT" size="25.0" />
+         </font>
+      </Button>
+      <AnchorPane prefHeight="855.0" prefWidth="442.0">
+         <children>
+            <ImageView fitHeight="387.0" fitWidth="528.0" layoutX="-80.0" layoutY="-30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/Ellipse%20209%20(1)%20-%20copia.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="374.0" fitWidth="566.0" layoutX="-80.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/Ellipse%20209%20(1)%20-%20copia.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="374.0" fitWidth="566.0" layoutX="-80.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/Ellipse%20209%20(1)%20-%20copia.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="374.0" fitWidth="566.0" layoutX="-80.0" layoutY="630.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/Ellipse%20209%20(1)%20-%20copia.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="flechaRegresar" fitHeight="38.0" fitWidth="46.0" layoutX="8.0" layoutY="6.0" onMouseClicked="#flechaRegresarEvent" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/flecha-a-la-izquierda-de-la-linea.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="253.0" fitWidth="335.0" layoutX="72.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/pngwing.com%20(5).png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="116.0" fitWidth="630.0" layoutX="412.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen5.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="468.0" layoutY="193.0" prefHeight="28.0" prefWidth="190.0" text="Nombres " textFill="#0676b7">
+         <font>
+            <Font name="Tw Cen MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="468.0" layoutY="246.0" prefHeight="28.0" prefWidth="190.0" text="Apellidos" textFill="#0676b7">
+         <font>
+            <Font name="Tw Cen MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="468.0" layoutY="303.0" prefHeight="28.0" prefWidth="190.0" text="Documento" textFill="#0676b7">
+         <font>
+            <Font name="Tw Cen MT" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="468.0" layoutY="356.0" prefHeight="28.0" prefWidth="190.0" text="Dirección" textFill="#0676b7">
+         <font>
+            <Font name="Tw Cen MT" size="20.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="txtContrasenia" layoutX="462.0" layoutY="623.0" prefHeight="38.0" prefWidth="361.0" promptText="*Contraseña" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
+         <font>
+            <Font name="Tw Cen MT" size="21.0" />
+         </font>
+      </PasswordField>
+      <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="794.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/lista-del-portapapeles.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
