@@ -21,7 +21,6 @@ import redVendedores.controllers.RestablecerContrasenaAdminController;
 import redVendedores.controllers.RestablecerContrasenaController;
 import redVendedores.controllers.VentanaAmigoController;
 import redVendedores.model.Red;
-import redVendedores.server.AppCliente;
 
 
  public class Aplicacion extends Application{
@@ -29,8 +28,7 @@ import redVendedores.server.AppCliente;
 	private Stage primaryStage;
 
 	Red red = new Red ("Shopify MarketPlace");
-	
-	static AppCliente appCliente;
+
 
 
 
