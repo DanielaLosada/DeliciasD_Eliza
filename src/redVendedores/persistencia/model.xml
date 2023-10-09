@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
 <java version="1.8.0_381" class="java.beans.XMLDecoder">
- <null/>
-=======
-<java version="1.8.0_111" class="java.beans.XMLDecoder">
  <object class="redVendedores.model.Red">
   <void property="administrador">
    <object class="redVendedores.model.Administrador">
@@ -118,8 +114,53 @@
    <string>Shoppify</string>
   </void>
  </object>
-<<<<<<< HEAD
 <void class="redVendedores.model.Producto" id="Producto0">
+ <void property="codigo">
+  <string>1290</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/estufa.jpg</string>
+ </void>
+ <void property="nombre">
+  <string>Estufa</string>
+ </void>
+ <void property="precio">
+  <string>$600</string>
+ </void>
+ <void property="categoria">
+  <string>Electrodomesticos</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto1">
+ <void property="codigo">
+  <string>3422</string>
+ </void>
+ <void property="estado">
+  <string>Publicado</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/martillo.jpg</string>
+ </void>
+ <void property="nombre">
+  <string>Martillo</string>
+ </void>
+ <void property="precio">
+  <string>$380</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto2">
  <void property="codigo">
   <string>3256</string>
  </void>
@@ -130,7 +171,7 @@
   <string>2023-10-08</string>
  </void>
  <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/camiseta.jpg</string>
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/camiseta.jpg</string>
  </void>
  <void property="nombre">
   <string>Camiseta hombre</string>
@@ -142,171 +183,9 @@
   <string>Ropa</string>
  </void>
 </void>
-<void class="redVendedores.model.Producto" id="Producto1">
+<void class="redVendedores.model.Producto" id="Producto3">
  <void property="codigo">
-  <string>9865</string>
-=======
-<void class="redVendedores.model.Vendedor" id="Field0" method="getField">
- <string>listaProductos</string>
- <void id="ArrayList0" method="get">
-  <object idref="Vendedor1"/>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>4563</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/microondas.png</string>
-    </void>
-    <void property="nombre">
-     <string>Microondas</string>
-    </void>
-    <void property="precio">
-     <string>$100</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>5678</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/nevera.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Nevera</string>
-    </void>
-    <void property="precio">
-     <string>$800</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>1290</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/estufa.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Estufa</string>
-    </void>
-    <void property="precio">
-     <string>$600</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>8655</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/tv.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Televisor 50&apos;&apos; </string>
-    </void>
-    <void property="precio">
-     <string>$200</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>3246</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/sanduchera.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Sanduchera</string>
-    </void>
-    <void property="precio">
-     <string>$200</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>8976</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/lavadoras.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Lavadora</string>
-    </void>
-    <void property="precio">
-     <string>$500</string>
-    </void>
-   </object>
-  </void>
- </void>
-</void>
-<void idref="ArrayList0"/>
-<void class="redVendedores.model.Producto" id="Producto0">
- <void property="codigo">
-  <string>7777</string>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
+  <string>1289</string>
  </void>
  <void property="estado">
   <string>Publicado</string>
@@ -315,148 +194,113 @@
   <string>2023-10-08</string>
  </void>
  <void property="imagen">
-<<<<<<< HEAD
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/falda.jpg</string>
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/jeans.jpg</string>
  </void>
  <void property="nombre">
-  <string>Falda cuero</string>
+  <string>Jean rotos unisex</string>
  </void>
  <void property="precio">
-  <string>$178</string>
-=======
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/n.jpg</string>
+  <string>$190</string>
+ </void>
+ <void property="categoria">
+  <string>Ropa</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto4">
+ <void property="codigo">
+  <string>8655</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/tv.jpg</string>
+ </void>
+ <void property="nombre">
+  <string>Televisor 50&apos;&apos; </string>
+ </void>
+ <void property="precio">
+  <string>$200</string>
+ </void>
+ <void property="categoria">
+  <string>Electrodomesticos</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto5">
+ <void property="codigo">
+  <string>9087</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/dije.jpg</string>
+ </void>
+ <void property="nombre">
+  <string>Dije</string>
+ </void>
+ <void property="precio">
+  <string>$250</string>
+ </void>
+ <void property="categoria">
+  <string>Accesorios</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto6">
+ <void property="codigo">
+  <string>9087</string>
+ </void>
+ <void property="estado">
+  <string>Publicado</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/pulsera.jpg</string>
+ </void>
+ <void property="nombre">
+  <string>Pulsera</string>
+ </void>
+ <void property="precio">
+  <string>$500</string>
+ </void>
+ <void property="categoria">
+  <string>Accesorios</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto7">
+ <void property="codigo">
+  <string>7777</string>
+ </void>
+ <void property="estado">
+  <string>Publicado</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/n.jpg</string>
  </void>
  <void property="nombre">
   <string>New balance</string>
  </void>
  <void property="precio">
   <string>$160</string>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
  </void>
  <void property="categoria">
-  <string>Ropa</string>
+  <string>Calzado</string>
  </void>
 </void>
-<<<<<<< HEAD
 <void class="redVendedores.model.Vendedor" id="Field0" method="getField">
  <string>listaProductos</string>
  <void id="ArrayList0" method="get">
-=======
-<void class="redVendedores.model.Producto" id="Producto1">
- <void property="codigo">
-  <string>2321</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/gucci.jpeg</string>
- </void>
- <void property="nombre">
-  <string>Gucci</string>
- </void>
- <void property="precio">
-  <string>$500</string>
- </void>
- <void property="categoria">
-  <string>Calzado</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto2">
- <void property="codigo">
-  <string>4656</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/p.jpg</string>
- </void>
- <void property="nombre">
-  <string>Puma</string>
- </void>
- <void property="precio">
-  <string>$200</string>
- </void>
- <void property="categoria">
-  <string>Calzado</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto3">
- <void property="codigo">
-  <string>88888</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/Nike.jpg</string>
- </void>
- <void property="nombre">
-  <string>Nike Air force 1</string>
- </void>
- <void property="precio">
-  <string>$150</string>
- </void>
- <void property="categoria">
-  <string>Calzado</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto4">
- <void property="codigo">
-  <string>7809</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/anilloHuella.jpg</string>
- </void>
- <void property="nombre">
-  <string>Anillo</string>
- </void>
- <void property="precio">
-  <string>$600</string>
- </void>
- <void property="categoria">
-  <string>Accesorios</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto5">
- <void property="codigo">
-  <string>1256</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/tobillera.jpg</string>
- </void>
- <void property="nombre">
-  <string>Tobillera</string>
- </void>
- <void property="precio">
-  <string>$300</string>
- </void>
- <void property="categoria">
-  <string>Accesorios</string>
- </void>
-</void>
-<void class="redVendedores.model.Vendedor" id="Field1" method="getField">
- <string>listaProductos</string>
- <void id="ArrayList1" method="get">
   <object idref="Vendedor0"/>
   <void method="add">
    <object class="redVendedores.model.Producto">
@@ -473,7 +317,7 @@
      <string>2023-10-08</string>
     </void>
     <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/Vans.jpg</string>
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/Vans.jpg</string>
     </void>
     <void property="nombre">
      <string>Vans</string>
@@ -498,7 +342,7 @@
      <string>2023-10-08</string>
     </void>
     <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/e4b262a7f0528b734751a42b34a69d9c.jpg</string>
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/e4b262a7f0528b734751a42b34a69d9c.jpg</string>
     </void>
     <void property="nombre">
      <string>Adidas Forum low</string>
@@ -509,276 +353,12 @@
    </object>
   </void>
   <void method="add">
-   <object idref="Producto2"/>
-  </void>
-  <void method="add">
-   <object idref="Producto0"/>
-  </void>
-  <void method="add">
-   <object idref="Producto1"/>
-  </void>
-  <void method="add">
-   <object idref="Producto3"/>
-  </void>
- </void>
-</void>
-<void idref="ArrayList1"/>
-<void class="redVendedores.model.Producto" id="Producto6">
- <void property="codigo">
-  <string>1289</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/jeans.jpg</string>
- </void>
- <void property="nombre">
-  <string>Jean rotos unisex</string>
- </void>
- <void property="precio">
-  <string>$190</string>
- </void>
- <void property="categoria">
-  <string>Ropa</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto7">
- <void property="codigo">
-  <string>3256</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/camiseta.jpg</string>
- </void>
- <void property="nombre">
-  <string>Camiseta hombre</string>
- </void>
- <void property="precio">
-  <string>$600</string>
- </void>
- <void property="categoria">
-  <string>Ropa</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto8">
- <void property="codigo">
-  <string>7879</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/chaqueta.jpg</string>
- </void>
- <void property="nombre">
-  <string>Chaqueta jean hombre</string>
- </void>
- <void property="precio">
-  <string>$250</string>
- </void>
- <void property="categoria">
-  <string>Ropa</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto9">
- <void property="codigo">
-  <string>1092</string>
- </void>
- <void property="estado">
-  <string>Publicada</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/serrucho.jpg</string>
- </void>
- <void property="nombre">
-  <string>Serrucho</string>
- </void>
- <void property="precio">
-  <string>$100</string>
- </void>
- <void property="categoria">
-  <string>Herramientas</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto10">
- <void property="codigo">
-  <string>6541</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/candongas.jpg</string>
- </void>
- <void property="nombre">
-  <string>Candongas</string>
- </void>
- <void property="precio">
-  <string>$600</string>
- </void>
- <void property="categoria">
-  <string>Joyas</string>
- </void>
-</void>
-<void class="redVendedores.model.Vendedor" id="Field2" method="getField">
- <string>listaProductos</string>
- <void id="ArrayList2" method="get">
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
-  <object idref="Vendedor4"/>
-  <void method="add">
    <object class="redVendedores.model.Producto">
     <void property="categoria">
-     <string>Herramientas</string>
+     <string>Calzado</string>
     </void>
     <void property="codigo">
-     <string>1289</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/destornillador.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Destornillador</string>
-    </void>
-    <void property="precio">
-     <string>$450</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Herramientas</string>
-    </void>
-    <void property="codigo">
-     <string>2342</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/alicate.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Alicate</string>
-    </void>
-    <void property="precio">
-     <string>$290</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-<<<<<<< HEAD
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Herramientas</string>
-    </void>
-    <void property="codigo">
-     <string>1092</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/serrucho.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Serrucho</string>
-    </void>
-    <void property="precio">
-     <string>$100</string>
-    </void>
-   </object>
-=======
-   <object idref="Producto9"/>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Herramientas</string>
-    </void>
-    <void property="codigo">
-     <string>1278</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/metro.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Metro</string>
-    </void>
-    <void property="precio">
-     <string>$790</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Herramientas</string>
-    </void>
-    <void property="codigo">
-     <string>2312</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/llave.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Llave inglesa</string>
-    </void>
-    <void property="precio">
-     <string>$360</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Herramientas</string>
-    </void>
-    <void property="codigo">
-     <string>3422</string>
+     <string>4656</string>
     </void>
     <void property="estado">
      <string>Publicado</string>
@@ -787,172 +367,10 @@
      <string>2023-10-08</string>
     </void>
     <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/martillo.jpg</string>
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/p.jpg</string>
     </void>
     <void property="nombre">
-     <string>Martillo</string>
-    </void>
-    <void property="precio">
-     <string>$380</string>
-    </void>
-   </object>
-  </void>
- </void>
-</void>
-<<<<<<< HEAD
-<void idref="ArrayList0"/>
-<void class="redVendedores.model.Producto" id="Producto2">
- <void property="codigo">
-  <string>1289</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/jeans.jpg</string>
- </void>
- <void property="nombre">
-  <string>Jean rotos unisex</string>
- </void>
- <void property="precio">
-  <string>$190</string>
- </void>
- <void property="categoria">
-  <string>Ropa</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto3">
- <void property="codigo">
-  <string>9087</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/pulsera.jpg</string>
- </void>
- <void property="nombre">
-  <string>Pulsera</string>
- </void>
- <void property="precio">
-  <string>$500</string>
- </void>
- <void property="categoria">
-  <string>Accesorios</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto4">
- <void property="codigo">
-  <string>4563</string>
-=======
-<void idref="ArrayList2"/>
-<void class="redVendedores.model.Producto" id="Producto11">
- <void property="codigo">
-  <string>2345</string>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
- </void>
- <void property="estado">
-  <string>Publicada</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-<<<<<<< HEAD
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/microondas.png</string>
- </void>
- <void property="nombre">
-  <string>Microondas</string>
- </void>
- <void property="precio">
-  <string>$100</string>
- </void>
- <void property="categoria">
-  <string>Electrodomesticos</string>
- </void>
-</void>
-<void class="redVendedores.model.Vendedor" id="Field1" method="getField">
- <string>listaProductos</string>
- <void id="ArrayList1" method="get">
-  <object idref="Vendedor1"/>
-  <void method="add">
-   <object idref="Producto4"/>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>5678</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/nevera.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Nevera</string>
-    </void>
-    <void property="precio">
-     <string>$800</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>1290</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/estufa.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Estufa</string>
-    </void>
-    <void property="precio">
-     <string>$600</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>8655</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/tv.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Televisor 50&apos;&apos; </string>
+     <string>Puma</string>
     </void>
     <void property="precio">
      <string>$200</string>
@@ -960,196 +378,64 @@
    </object>
   </void>
   <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Electrodomesticos</string>
-    </void>
-    <void property="codigo">
-     <string>3246</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/sanduchera.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Sanduchera</string>
-    </void>
-    <void property="precio">
-     <string>$200</string>
-    </void>
-   </object>
+   <object idref="Producto7"/>
   </void>
   <void method="add">
    <object class="redVendedores.model.Producto">
     <void property="categoria">
-     <string>Electrodomesticos</string>
+     <string>Calzado</string>
     </void>
     <void property="codigo">
-     <string>8976</string>
+     <string>2321</string>
     </void>
     <void property="estado">
-     <string>Publicada</string>
+     <string>Publicado</string>
     </void>
     <void property="fechaHora">
      <string>2023-10-08</string>
     </void>
     <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/lavadoras.jpg</string>
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/gucci.jpeg</string>
     </void>
     <void property="nombre">
-     <string>Lavadora</string>
+     <string>Gucci</string>
     </void>
     <void property="precio">
      <string>$500</string>
     </void>
    </object>
   </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Calzado</string>
+    </void>
+    <void property="codigo">
+     <string>88888</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="fechaHora">
+     <string>2023-10-08</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/Nike.jpg</string>
+    </void>
+    <void property="nombre">
+     <string>Nike Air force 1</string>
+    </void>
+    <void property="precio">
+     <string>$150</string>
+    </void>
+   </object>
+  </void>
  </void>
 </void>
-<void idref="ArrayList1"/>
-<void class="redVendedores.model.Producto" id="Producto5">
- <void property="codigo">
-  <string>7979</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/e4b262a7f0528b734751a42b34a69d9c.jpg</string>
- </void>
- <void property="nombre">
-  <string>Adidas Forum low</string>
- </void>
- <void property="precio">
-  <string>$280</string>
- </void>
- <void property="categoria">
-  <string>Calzado</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto6">
- <void property="codigo">
-  <string>7809</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/anilloHuella.jpg</string>
- </void>
- <void property="nombre">
-  <string>Anillo</string>
- </void>
- <void property="precio">
-  <string>$600</string>
- </void>
- <void property="categoria">
-  <string>Accesorios</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto7">
- <void property="codigo">
-  <string>88888</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/Nike.jpg</string>
- </void>
- <void property="nombre">
-  <string>Nike Air force 1</string>
- </void>
- <void property="precio">
-  <string>$150</string>
- </void>
- <void property="categoria">
-  <string>Calzado</string>
- </void>
-</void>
+<void idref="ArrayList0"/>
 <void class="redVendedores.model.Producto" id="Producto8">
  <void property="codigo">
-  <string>7777</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/n.jpg</string>
- </void>
- <void property="nombre">
-  <string>New balance</string>
- </void>
- <void property="precio">
-  <string>$160</string>
- </void>
- <void property="categoria">
-  <string>Calzado</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto9">
- <void property="codigo">
-  <string>6541</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/candongas.jpg</string>
- </void>
- <void property="nombre">
-  <string>Candongas</string>
- </void>
- <void property="precio">
-  <string>$600</string>
- </void>
- <void property="categoria">
-  <string>Joyas</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto10">
- <void property="codigo">
-  <string>2321</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/gucci.jpeg</string>
- </void>
- <void property="nombre">
-  <string>Gucci</string>
- </void>
- <void property="precio">
-  <string>$500</string>
- </void>
- <void property="categoria">
-  <string>Calzado</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto11">
- <void property="codigo">
-  <string>2345</string>
+  <string>3246</string>
  </void>
  <void property="estado">
   <string>Publicada</string>
@@ -1158,65 +444,42 @@
   <string>2023-10-08</string>
  </void>
  <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/bbb.jpg</string>
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/sanduchera.jpg</string>
  </void>
  <void property="nombre">
-  <string>Blusa mujer</string>
- </void>
- <void property="precio">
-  <string>$500</string>
- </void>
- <void property="categoria">
-  <string>Ropa</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto12">
- <void property="codigo">
-  <string>7879</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/chaqueta.jpg</string>
- </void>
- <void property="nombre">
-  <string>Chaqueta jean hombre</string>
- </void>
- <void property="precio">
-  <string>$250</string>
- </void>
- <void property="categoria">
-  <string>Ropa</string>
- </void>
-</void>
-<void class="redVendedores.model.Producto" id="Producto13">
- <void property="codigo">
-  <string>4656</string>
- </void>
- <void property="estado">
-  <string>Publicado</string>
- </void>
- <void property="fechaHora">
-  <string>2023-10-08</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/p.jpg</string>
- </void>
- <void property="nombre">
-  <string>Puma</string>
+  <string>Sanduchera</string>
  </void>
  <void property="precio">
   <string>$200</string>
  </void>
  <void property="categoria">
-  <string>Calzado</string>
+  <string>Electrodomesticos</string>
  </void>
 </void>
-<void class="redVendedores.model.Producto" id="Producto14">
+<void class="redVendedores.model.Producto" id="Producto9">
+ <void property="codigo">
+  <string>2342</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/alicate.jpg</string>
+ </void>
+ <void property="nombre">
+  <string>Alicate</string>
+ </void>
+ <void property="precio">
+  <string>$290</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto10">
  <void property="codigo">
   <string>1236</string>
  </void>
@@ -1227,19 +490,147 @@
   <string>2023-10-08</string>
  </void>
  <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/collar.jpg</string>
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/collar.jpg</string>
  </void>
  <void property="nombre">
   <string>Collar</string>
-=======
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/bbb.jpg</string>
- </void>
- <void property="nombre">
-  <string>Blusa mujer</string>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
  </void>
  <void property="precio">
   <string>$600</string>
+ </void>
+ <void property="categoria">
+  <string>Accesorios</string>
+ </void>
+</void>
+<void class="redVendedores.model.Vendedor" id="Field1" method="getField">
+ <string>listaProductos</string>
+ <void id="ArrayList1" method="get">
+  <object idref="Vendedor2"/>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Accesorios</string>
+    </void>
+    <void property="codigo">
+     <string>7809</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/anilloHuella.jpg</string>
+    </void>
+    <void property="nombre">
+     <string>Anillo</string>
+    </void>
+    <void property="precio">
+     <string>$600</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Producto6"/>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Accesorios</string>
+    </void>
+    <void property="codigo">
+     <string>1256</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="fechaHora">
+     <string>2023-10-08</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/tobillera.jpg</string>
+    </void>
+    <void property="nombre">
+     <string>Tobillera</string>
+    </void>
+    <void property="precio">
+     <string>$300</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Producto10"/>
+  </void>
+  <void method="add">
+   <object idref="Producto5"/>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Joyas</string>
+    </void>
+    <void property="codigo">
+     <string>6541</string>
+    </void>
+    <void property="estado">
+     <string>Publicado</string>
+    </void>
+    <void property="fechaHora">
+     <string>2023-10-08</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/candongas.jpg</string>
+    </void>
+    <void property="nombre">
+     <string>Candongas</string>
+    </void>
+    <void property="precio">
+     <string>$600</string>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList1"/>
+<void class="redVendedores.model.Producto" id="Producto11">
+ <void property="codigo">
+  <string>2312</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/llave.jpg</string>
+ </void>
+ <void property="nombre">
+  <string>Llave inglesa</string>
+ </void>
+ <void property="precio">
+  <string>$360</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Producto" id="Producto12">
+ <void property="codigo">
+  <string>7879</string>
+ </void>
+ <void property="estado">
+  <string>Publicado</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/chaqueta.jpg</string>
+ </void>
+ <void property="nombre">
+  <string>Chaqueta jean hombre</string>
+ </void>
+ <void property="precio">
+  <string>$250</string>
  </void>
  <void property="categoria">
   <string>Ropa</string>
@@ -1248,210 +639,34 @@
 <void class="redVendedores.model.Vendedor" id="Field2" method="getField">
  <string>listaProductos</string>
  <void id="ArrayList2" method="get">
-  <object idref="Vendedor2"/>
-  <void method="add">
-<<<<<<< HEAD
-   <object idref="Producto6"/>
-  </void>
-  <void method="add">
-   <object idref="Producto3"/>
-=======
-   <object idref="Producto4"/>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
-  </void>
+  <object idref="Vendedor3"/>
   <void method="add">
    <object class="redVendedores.model.Producto">
     <void property="categoria">
-     <string>Accesorios</string>
+     <string>Ropa</string>
     </void>
     <void property="codigo">
-<<<<<<< HEAD
-     <string>1256</string>
-=======
-     <string>9087</string>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
+     <string>2345</string>
     </void>
     <void property="estado">
-     <string>Publicado</string>
+     <string>Publicada</string>
     </void>
     <void property="fechaHora">
      <string>2023-10-08</string>
     </void>
     <void property="imagen">
-<<<<<<< HEAD
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/tobillera.jpg</string>
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/bbb.jpg</string>
     </void>
     <void property="nombre">
-     <string>Tobillera</string>
-    </void>
-    <void property="precio">
-     <string>$300</string>
-=======
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/pulsera.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Pulsera</string>
+     <string>Blusa mujer</string>
     </void>
     <void property="precio">
      <string>$500</string>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
     </void>
    </object>
   </void>
   <void method="add">
-<<<<<<< HEAD
-   <object idref="Producto14"/>
-=======
-   <object idref="Producto5"/>
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Accesorios</string>
-    </void>
-    <void property="codigo">
-     <string>1236</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/collar.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Collar</string>
-    </void>
-    <void property="precio">
-     <string>$600</string>
-    </void>
-   </object>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
-  </void>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Accesorios</string>
-    </void>
-    <void property="codigo">
-     <string>9087</string>
-    </void>
-    <void property="estado">
-     <string>Publicada</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/dije.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Dije</string>
-    </void>
-    <void property="precio">
-     <string>$250</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-<<<<<<< HEAD
-   <object idref="Producto9"/>
-  </void>
- </void>
-</void>
-<void idref="ArrayList2"/>
-<void class="redVendedores.model.Vendedor" id="Field3" method="getField">
- <string>listaProductos</string>
- <void id="ArrayList3" method="get">
-  <object idref="Vendedor0"/>
-  <void method="add">
-   <object class="redVendedores.model.Producto">
-    <void property="categoria">
-     <string>Calzado</string>
-    </void>
-    <void property="codigo">
-     <string>5656</string>
-    </void>
-    <void property="estado">
-     <string>Publicado</string>
-    </void>
-    <void property="fechaHora">
-     <string>2023-10-08</string>
-    </void>
-    <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/Vans.jpg</string>
-    </void>
-    <void property="nombre">
-     <string>Vans</string>
-    </void>
-    <void property="precio">
-     <string>$220</string>
-    </void>
-   </object>
-  </void>
-  <void method="add">
-   <object idref="Producto5"/>
-  </void>
-  <void method="add">
-   <object idref="Producto13"/>
-  </void>
-  <void method="add">
-   <object idref="Producto8"/>
-  </void>
-  <void method="add">
-   <object idref="Producto10"/>
-  </void>
-  <void method="add">
-   <object idref="Producto7"/>
-  </void>
- </void>
-</void>
-<void idref="ArrayList3"/>
-<void class="redVendedores.model.Producto" id="Producto15">
-=======
-   <object idref="Producto10"/>
-  </void>
- </void>
-</void>
-<void idref="ArrayList3"/>
-<void class="redVendedores.model.Producto" id="Producto12">
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
- <void property="codigo">
-  <string>4578</string>
- </void>
- <void property="estado">
-  <string>Publicada</string>
- </void>
- <void property="imagen">
-  <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/sudadera.jpg</string>
- </void>
- <void property="nombre">
-  <string>Sudadera</string>
- </void>
- <void property="precio">
-  <string>$110</string>
- </void>
- <void property="categoria">
-  <string>Ropa</string>
- </void>
-</void>
-<void class="redVendedores.model.Vendedor" id="Field4" method="getField">
- <string>listaProductos</string>
- <void id="ArrayList4" method="get">
-  <object idref="Vendedor3"/>
-  <void method="add">
-   <object idref="Producto11"/>
-  </void>
-  <void method="add">
-<<<<<<< HEAD
-   <object idref="Producto2"/>
-  </void>
-  <void method="add">
-   <object idref="Producto1"/>
-=======
-   <object idref="Producto6"/>
+   <object idref="Producto3"/>
   </void>
   <void method="add">
    <object class="redVendedores.model.Producto">
@@ -1468,7 +683,7 @@
      <string>2023-10-08</string>
     </void>
     <void property="imagen">
-     <string>D:/Trabajo/DeliciasD_Eliza/bin/imagenes/falda.jpg</string>
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/falda.jpg</string>
     </void>
     <void property="nombre">
      <string>Falda cuero</string>
@@ -1479,24 +694,217 @@
    </object>
   </void>
   <void method="add">
-   <object idref="Producto8"/>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
-  </void>
-  <void method="add">
    <object idref="Producto12"/>
   </void>
   <void method="add">
-<<<<<<< HEAD
-   <object idref="Producto15"/>
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Ropa</string>
+    </void>
+    <void property="codigo">
+     <string>4578</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/sudadera.jpg</string>
+    </void>
+    <void property="nombre">
+     <string>Sudadera</string>
+    </void>
+    <void property="precio">
+     <string>$110</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Producto2"/>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList2"/>
+<void class="redVendedores.model.Producto" id="Producto13">
+ <void property="codigo">
+  <string>1092</string>
+ </void>
+ <void property="estado">
+  <string>Publicada</string>
+ </void>
+ <void property="fechaHora">
+  <string>2023-10-08</string>
+ </void>
+ <void property="imagen">
+  <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/serrucho.jpg</string>
+ </void>
+ <void property="nombre">
+  <string>Serrucho</string>
+ </void>
+ <void property="precio">
+  <string>$100</string>
+ </void>
+ <void property="categoria">
+  <string>Herramientas</string>
+ </void>
+</void>
+<void class="redVendedores.model.Vendedor" id="Field3" method="getField">
+ <string>listaProductos</string>
+ <void id="ArrayList3" method="get">
+  <object idref="Vendedor1"/>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Electrodomesticos</string>
+    </void>
+    <void property="codigo">
+     <string>4563</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="fechaHora">
+     <string>2023-10-08</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/microondas.png</string>
+    </void>
+    <void property="nombre">
+     <string>Microondas</string>
+    </void>
+    <void property="precio">
+     <string>$100</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Electrodomesticos</string>
+    </void>
+    <void property="codigo">
+     <string>5678</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="fechaHora">
+     <string>2023-10-08</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/nevera.jpg</string>
+    </void>
+    <void property="nombre">
+     <string>Nevera</string>
+    </void>
+    <void property="precio">
+     <string>$800</string>
+    </void>
+   </object>
   </void>
   <void method="add">
    <object idref="Producto0"/>
-=======
-   <object idref="Producto7"/>
->>>>>>> 2374fc71763bace7f41cecd143277a9df6ef3975
+  </void>
+  <void method="add">
+   <object idref="Producto4"/>
+  </void>
+  <void method="add">
+   <object idref="Producto8"/>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Electrodomesticos</string>
+    </void>
+    <void property="codigo">
+     <string>8976</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="fechaHora">
+     <string>2023-10-08</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/lavadoras.jpg</string>
+    </void>
+    <void property="nombre">
+     <string>Lavadora</string>
+    </void>
+    <void property="precio">
+     <string>$500</string>
+    </void>
+   </object>
+  </void>
+ </void>
+</void>
+<void idref="ArrayList3"/>
+<void class="redVendedores.model.Vendedor" id="Field4" method="getField">
+ <string>listaProductos</string>
+ <void id="ArrayList4" method="get">
+  <object idref="Vendedor4"/>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Herramientas</string>
+    </void>
+    <void property="codigo">
+     <string>1289</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="fechaHora">
+     <string>2023-10-08</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/destornillador.jpg</string>
+    </void>
+    <void property="nombre">
+     <string>Destornillador</string>
+    </void>
+    <void property="precio">
+     <string>$450</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Producto9"/>
+  </void>
+  <void method="add">
+   <object idref="Producto13"/>
+  </void>
+  <void method="add">
+   <object class="redVendedores.model.Producto">
+    <void property="categoria">
+     <string>Herramientas</string>
+    </void>
+    <void property="codigo">
+     <string>1278</string>
+    </void>
+    <void property="estado">
+     <string>Publicada</string>
+    </void>
+    <void property="fechaHora">
+     <string>2023-10-08</string>
+    </void>
+    <void property="imagen">
+     <string>C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/metro.jpg</string>
+    </void>
+    <void property="nombre">
+     <string>Metro</string>
+    </void>
+    <void property="precio">
+     <string>$790</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object idref="Producto11"/>
+  </void>
+  <void method="add">
+   <object idref="Producto1"/>
   </void>
  </void>
 </void>
 <void idref="ArrayList4"/>
->>>>>>> 5d50cc322ffa96aad6b23a8e1319e546d1d8ee55
 </java>

@@ -39,7 +39,15 @@ public class LoginVendedorController {
     @FXML
     private Label olvideContrasena;
     
+    @FXML
+    private ImageView VerContrasenia;
+    
     ModelFactoryController modelFactoryController; 
+    
+    @FXML
+    void verContraseniaEvent(MouseEvent event) {
+
+    }
 
     @FXML
     void flechaRegresarEvent(MouseEvent event) {
