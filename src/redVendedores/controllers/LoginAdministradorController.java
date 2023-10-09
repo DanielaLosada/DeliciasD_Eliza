@@ -35,11 +35,21 @@ public class LoginAdministradorController {
 
     @FXML
     private Button btnIngresar;
+    
+    @FXML
+    private ImageView VerContrasenia;
+    
 
+    
     @FXML
     private PasswordField txtContraseniaAdmin;
     
     ModelFactoryController modelFactoryController; 
+    
+    @FXML
+    void verContraseniaEvent(MouseEvent event) {
+
+    }
 
     @FXML
     void olvideContrasenaEvent(MouseEvent event) {

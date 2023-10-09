@@ -1,96 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
-<?import javafx.scene.effect.*?>
-<?import javafx.scene.text.*?>
-<?import javafx.scene.control.*?>
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="718.0" prefWidth="1118.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.LoginAdministradorController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="668.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.LoginAdministradorController">
    <children>
-      <ImageView fitHeight="606.0" fitWidth="1012.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="695.0" fitWidth="672.0" layoutX="-4.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../imagenes/Union.png" />
+            <Image url="@../../imagenes/marco%20a.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="292.0" fitWidth="397.0" layoutX="721.0" layoutY="444.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="122.0" fitWidth="247.0" layoutX="420.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../imagenes/Ellipse%20209.png" />
+            <Image url="@../../imagenes/Imagen17.png" />
          </image>
       </ImageView>
-      <AnchorPane layoutX="334.0" layoutY="83.0" prefHeight="536.0" prefWidth="449.0" style="-fx-background-color: #FFFFFF;">
-         <children>
-            <AnchorPane layoutX="1.0" prefHeight="108.0" prefWidth="449.0" style="-fx-background-color: #C9E9FC;">
-               <children>
-                  <ImageView fitHeight="105.0" fitWidth="158.0" layoutX="291.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
-                     <image>
-                        <Image url="@../../imagenes/pngwing.com.png" />
-                     </image>
-                  </ImageView>
-                  <Label layoutX="14.0" layoutY="11.0" text="¡Bienvenido!" textFill="#0676b7">
-                     <font>
-                        <Font name="Tw Cen MT Bold" size="25.0" />
-                     </font>
-                  </Label>
-                  <Label layoutX="14.0" layoutY="39.0" text="Shopify esta para servirte." textFill="#0676b7">
-                     <font>
-                        <Font name="Tw Cen MT" size="21.0" />
-                     </font>
-                  </Label>
-               </children>
-            </AnchorPane>
-            <Label fx:id="olvideContrasena" layoutX="133.0" layoutY="493.0" onMouseClicked="#olvideContrasenaEvent" onMouseEntered="#mouseEvent" onMouseExited="#mouseEvent2" text="¿Olvidaste la contraseña?" textFill="#0676b7">
-               <font>
-                  <Font name="Tw Cen MT Bold" size="17.0" />
-               </font>
-            </Label>
-            <Button fx:id="btnIngresar" layoutX="150.0" layoutY="424.0" mnemonicParsing="false" onAction="#ingresarEvent" prefHeight="32.0" prefWidth="127.0" style="-fx-background-color: #999999; -fx-background-radius: 30 30 30 30;" text="Ingresar" textFill="WHITE">
-               <font>
-                  <Font name="Tw Cen MT" size="18.0" />
-               </font>
-            </Button>
-            <PasswordField fx:id="txtContraseniaAdmin" layoutX="27.0" layoutY="343.0" prefHeight="46.0" prefWidth="397.0" promptText="Contraseña" style="-fx-background-color: #FFFFFF; -fx-border-color: #65727C; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30;">
-               <font>
-                  <Font name="Tw Cen MT" size="19.0" />
-               </font>
-            </PasswordField>
-            <TextField fx:id="txtNumDocumentoAdmin" layoutX="27.0" layoutY="222.0" prefHeight="46.0" prefWidth="397.0" promptText="Número de documento" style="-fx-background-color: FFFFFF; -fx-border-color: #65727c; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30;">
-               <font>
-                  <Font name="Tw Cen MT" size="19.0" />
-               </font>
-            </TextField>
-            <ImageView fitHeight="76.0" fitWidth="82.0" layoutX="20.0" layoutY="63.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../imagenes/pngwing.com%20(1).png" />
-               </image>
-            </ImageView>
-            <Label layoutX="27.0" layoutY="193.0" text="Usuario">
-               <font>
-                  <Font name="Tw Cen MT" size="21.0" />
-               </font>
-            </Label>
-            <Label layoutX="27.0" layoutY="308.0" text="Contraseña">
-               <font>
-                  <Font name="Tw Cen MT" size="21.0" />
-               </font>
-            </Label>
-            <Label layoutX="20.0" layoutY="139.0" text="Ingreso administrador" textFill="#fd7b7b">
-               <font>
-                  <Font name="Franklin Gothic Demi" size="15.0" />
-               </font>
-            </Label>
-            <ImageView fitHeight="18.0" fitWidth="16.0" layoutX="106.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true">
-               <image>
-                  <Image url="@../../imagenes/cerrar.png" />
-               </image>
-            </ImageView>
-         </children>
-      </AnchorPane>
-      <ImageView fx:id="flechaRegresar" fitHeight="32.0" fitWidth="37.0" layoutX="14.0" layoutY="14.0" onMouseClicked="#flechaRegresarEvent" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="flechaRegresar" fitHeight="39.0" fitWidth="40.0" layoutX="14.0" layoutY="8.0" onMouseClicked="#flechaRegresarEvent" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../imagenes/flecha-a-la-izquierda-de-la-linea.png" />
+            <Image url="@../../imagenes/flecha-izquierda.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="153.0" fitWidth="229.0" layoutX="216.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/pppp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="61.0" fitWidth="397.0" layoutX="134.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen27.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="145.0" fitWidth="141.0" layoutX="9.0" layoutY="529.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/panadero.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="olvideContrasena" layoutX="221.0" layoutY="625.0" onMouseClicked="#olvideContrasenaEvent" onMouseEntered="#mouseEvent" onMouseExited="#mouseEvent2" prefHeight="39.0" prefWidth="229.0" text="¿Olvidaste la contraseña?" textFill="#fd7b7b">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnIngresar" layoutX="269.0" layoutY="541.0" mnemonicParsing="false" onAction="#ingresarEvent" prefHeight="39.0" prefWidth="127.0" style="-fx-background-color: #440404; -fx-background-radius: 30 30 30 30;" text="Ingresar" textFill="WHITE">
+         <font>
+            <Font name="Tw Cen MT" size="25.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="txtContraseniaAdmin" layoutX="87.0" layoutY="443.0" prefHeight="46.0" prefWidth="463.0" promptText="Contraseña" style="-fx-background-color: #F5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+         <font>
+            <Font name="Tw Cen MT" size="23.0" />
+         </font>
+      </PasswordField>
+      <Label layoutX="87.0" layoutY="276.0" text="Usuario" textFill="#440404">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="72.0" layoutY="398.0" text="Contraseña" textFill="#440404">
+         <font>
+            <Font name="Tw Cen MT Condensed Extra Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNumDocumentoAdmin" layoutX="87.0" layoutY="314.0" prefHeight="46.0" prefWidth="447.0" promptText="Nombre de usuario" style="-fx-background-color: f5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+         <font>
+            <Font name="Tw Cen MT" size="25.0" />
+         </font>
+      </TextField>
+      <ImageView fitHeight="18.0" fitWidth="16.0" layoutX="430.0" layoutY="637.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/cerrar.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="46.0" fitWidth="47.0" layoutX="373.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/click-izquierdo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="23.0" layoutX="544.0" layoutY="326.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/99.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="VerContrasenia" fitHeight="26.0" fitWidth="32.0" layoutX="555.0" layoutY="453.0" onMouseClicked="#verContraseniaEvent" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/9.png" />
          </image>
       </ImageView>
    </children>
