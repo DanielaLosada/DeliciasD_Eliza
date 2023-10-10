@@ -76,7 +76,7 @@ public class RestablecerContrasena2Controller {
 	@FXML
     void initialize() {
 		modelFactoryController = ModelFactoryController.getInstance();
-		this.txtCodigoVerificacion=cadenaAleatoria();
+		//this.txtCodigoVerificacion=cadenaAleatoria();
     }
 
 	public void setAplicacion(Aplicacion aplicacion, String documento) {
@@ -84,21 +84,21 @@ public class RestablecerContrasena2Controller {
 		this.documento = documento;;
 	}
 
-	private Label cadenaAleatoria() {
-        String banco = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
-        String cadenaAux= "";
-        for (int x = 0; x < 8; x++) {
-            int indiceAleatorio = numeroAleatorioEnRango(0, banco.length() - 1);
-            char caracterAleatorio = banco.charAt(indiceAleatorio);
-            cadenaAux+=caracterAleatorio;
-            txtCodigoVerificacion.setText(cadenaAux);
-        }
-        return txtCodigoVerificacion;
-
-    }
-	private int numeroAleatorioEnRango(int minimo, int maximo) {
-        return ThreadLocalRandom.current().nextInt(minimo, maximo + 1);
-    }
+//	private Label cadenaAleatoria() {
+//        String banco = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+//        String cadenaAux= "";
+//        for (int x = 0; x < 8; x++) {
+//            int indiceAleatorio = numeroAleatorioEnRango(0, banco.length() - 1);
+//            char caracterAleatorio = banco.charAt(indiceAleatorio);
+//            cadenaAux+=caracterAleatorio;
+//            txtCodigoVerificacion.setText(cadenaAux);
+//        }
+//        return txtCodigoVerificacion;
+//
+//    }
+//	private int numeroAleatorioEnRango(int minimo, int maximo) {
+//        return ThreadLocalRandom.current().nextInt(minimo, maximo + 1);
+//    }
 
 	private void verificarCodigo(){
 		String codigoGenerado = txtCodigoVerificacion.getText();

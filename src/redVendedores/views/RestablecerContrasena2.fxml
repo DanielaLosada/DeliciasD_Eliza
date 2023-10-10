@@ -89,12 +89,12 @@
                   <Font name="Tw Cen MT" size="23.0" />
                </font>
             </PasswordField>
-            <ImageView fx:id="VerContrasenia1" fitHeight="26.0" fitWidth="32.0" layoutX="518.0" layoutY="347.0" onMouseClicked="#verContraseniaEvent" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="VerContrasenia1" fitHeight="26.0" fitWidth="32.0" layoutX="518.0" layoutY="347.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../imagenes/invisible.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="VerContrasenia" fitHeight="26.0" fitWidth="32.0" layoutX="526.0" layoutY="423.0" onMouseClicked="#verContraseniaEvent" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="VerContrasenia" fitHeight="26.0" fitWidth="32.0" layoutX="526.0" layoutY="423.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../imagenes/invisible.png" />
                </image>
