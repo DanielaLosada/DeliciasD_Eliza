@@ -27,12 +27,12 @@
             <Image url="@../../imagenes/Imagen17.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="86.0" fitWidth="342.0" layoutX="46.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="93.0" fitWidth="353.0" layoutX="37.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../imagenes/ppopop.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="56.0" fitWidth="62.0" layoutX="380.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="56.0" fitWidth="60.0" layoutX="384.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../imagenes/contrasena.png" />
          </image>
@@ -69,32 +69,32 @@
                   <Image url="@../../imagenes/comprobado.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="38.0" fitWidth="43.0" layoutX="637.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="44.0" fitWidth="44.0" layoutX="637.0" layoutY="104.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../imagenes/click-izquierdo.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="98.0" fitWidth="545.0" layoutX="70.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="108.0" fitWidth="579.0" layoutX="48.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../imagenes/res.png" />
                </image>
             </ImageView>
-            <PasswordField fx:id="txtNuevaContrasenia" layoutX="46.0" layoutY="337.0" prefHeight="46.0" prefWidth="463.0" promptText="Nueva contraseña" style="-fx-background-color: #F5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+            <PasswordField fx:id="txtNuevaContrasenia" layoutX="22.0" layoutY="277.0" prefHeight="46.0" prefWidth="463.0" promptText="Nueva contraseña" style="-fx-background-color: #F5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
                <font>
                   <Font name="Tw Cen MT" size="23.0" />
                </font>
             </PasswordField>
-            <PasswordField fx:id="txtContraseniaAgain" layoutX="46.0" layoutY="413.0" prefHeight="46.0" prefWidth="463.0" promptText="Vuelve a escribir la contraseña" style="-fx-background-color: #F5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+            <PasswordField fx:id="txtContraseniaAgain" layoutX="22.0" layoutY="426.0" prefHeight="46.0" prefWidth="463.0" promptText="Vuelve a escribir la contraseña" style="-fx-background-color: #F5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
                <font>
                   <Font name="Tw Cen MT" size="23.0" />
                </font>
             </PasswordField>
-            <ImageView fx:id="VerContrasenia1" fitHeight="26.0" fitWidth="32.0" layoutX="518.0" layoutY="347.0" onMouseClicked="#verContraseniaEvent" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="VerContrasenia1" fitHeight="26.0" fitWidth="32.0" layoutX="496.0" layoutY="287.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../imagenes/invisible.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="VerContrasenia" fitHeight="26.0" fitWidth="32.0" layoutX="526.0" layoutY="423.0" onMouseClicked="#verContraseniaEvent" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="VerContrasenia" fitHeight="26.0" fitWidth="32.0" layoutX="496.0" layoutY="436.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../imagenes/invisible.png" />
                </image>
@@ -109,7 +109,7 @@
                   <Font name="Tw Cen MT Condensed Extra Bold" size="22.0" />
                </font>
             </Label>
-            <ImageView fitHeight="56.0" fitWidth="56.0" layoutX="314.0" layoutY="200.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="56.0" fitWidth="56.0" layoutX="314.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../imagenes/cambio.png" />
                </image>
@@ -124,12 +124,33 @@
                   <Image url="@../../imagenes/clicker-del-mouse.png" />
                </image>
             </ImageView>
-            <Text layoutX="415.0" layoutY="244.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite una contraseña con al menos un(a)" />
-            <Text fill="#f10000" layoutX="531.0" layoutY="265.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Mayúscula" />
-            <Text fill="#f10000" layoutX="616.0" layoutY="264.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Minúscula" />
-            <Text fill="#f10000" layoutX="552.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Símbolo" />
-            <Text fill="#f10000" layoutX="623.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Número" />
-            <Text layoutX="534.0" layoutY="306.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y al menos 8 caracteres." />
+            <Text layoutX="20.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite una contraseña con al menos un(a)">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font></Text>
+            <Text fill="#f10000" layoutX="304.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Mayúscula">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font></Text>
+            <Text layoutX="22.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y al menos 8 caracteres.">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font></Text>
+            <Text fill="#f10000" layoutX="385.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Minúścula">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#f10000" layoutX="467.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Número">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#f10000" layoutX="534.0" layoutY="361.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Símbolo">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
          </children>
       </AnchorPane>
    </children>

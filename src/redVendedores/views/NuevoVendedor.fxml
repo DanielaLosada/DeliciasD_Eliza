@@ -1,137 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.image.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="855.0" prefWidth="1005.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.NuevoVendedorController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="690.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="redVendedores.controllers.NuevoVendedorController">
    <children>
-      <TextField fx:id="txtNombre" layoutX="568.0" layoutY="188.0" prefHeight="23.0" prefWidth="361.0" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa;">
-         <font>
-            <Font name="Tw Cen MT" size="21.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="txtApellido" layoutX="568.0" layoutY="241.0" prefHeight="39.0" prefWidth="361.0" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa;">
-         <font>
-            <Font name="Tw Cen MT" size="21.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="txtDocumento" layoutX="568.0" layoutY="297.0" prefHeight="29.0" prefWidth="361.0" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa;">
-         <font>
-            <Font name="Tw Cen MT" size="21.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="txtDireccion" layoutX="570.0" layoutY="356.0" prefHeight="38.0" prefWidth="361.0" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa;">
-         <font>
-            <Font name="Tw Cen MT" size="21.0" />
-         </font>
-      </TextField>
-      <Label layoutX="468.0" layoutY="143.0" prefHeight="28.0" prefWidth="190.0" text="Datos personales" textFill="#fd7b7b">
-         <font>
-            <Font name="Tw Cen MT Bold" size="26.0" />
-         </font>
-      </Label>
-      <Label layoutX="468.0" layoutY="439.0" prefHeight="28.0" prefWidth="256.0" text="Datos de ingreso" textFill="#fd7b7b">
-         <font>
-            <Font name="Tw Cen MT Bold" size="25.0" />
-         </font>
-      </Label>
-      <TextField fx:id="txtCedula" layoutX="468.0" layoutY="525.0" prefHeight="38.0" prefWidth="361.0" promptText="*Número de documento" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
-         <font>
-            <Font name="Tw Cen MT" size="21.0" />
-         </font>
-      </TextField>
-      <Label layoutX="480.0" layoutY="491.0" text="Usuario" textFill="#0676b7">
-         <font>
-            <Font name="Tw Cen MT" size="21.0" />
-         </font>
-      </Label>
-      <Label layoutX="480.0" layoutY="592.0" text="Contraseña" textFill="#0676b7">
-         <font>
-            <Font name="Tw Cen MT" size="21.0" />
-         </font>
-      </Label>
-      <ImageView fitHeight="133.0" fitWidth="140.0" layoutX="865.0" layoutY="708.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="760.0" fitWidth="703.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../imagenes/Imagen3.png" />
+            <Image url="@../../imagenes/pol.png" />
          </image>
       </ImageView>
-      <Button fx:id="btnRegistrarse" layoutX="658.0" layoutY="685.0" mnemonicParsing="false" onAction="#registrarseEvent" onMouseClicked="#registrarseEvent" onMouseEntered="#mouseEvent" onMouseExited="#mouseEvent2" prefHeight="44.0" prefWidth="157.0" style="-fx-background-color: #999999; -fx-background-radius: 30 30 30 30;" text="Registrarse" textFill="WHITE">
-         <font>
-            <Font name="Tw Cen MT" size="25.0" />
-         </font>
-      </Button>
-      <AnchorPane prefHeight="855.0" prefWidth="442.0">
+      <ImageView fitHeight="109.0" fitWidth="219.0" layoutY="653.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Imagen17.png" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="-15.0" layoutY="-1.0" prefHeight="796.0" prefWidth="691.0">
          <children>
-            <ImageView fitHeight="387.0" fitWidth="528.0" layoutX="-80.0" layoutY="-30.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="115.0" fitWidth="311.0" layoutX="110.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../imagenes/Ellipse%20209%20(1)%20-%20copia.png" />
+                  <Image url="@../../imagenes/loi.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="374.0" fitWidth="566.0" layoutX="-80.0" layoutY="189.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="65.0" fitWidth="361.0" layoutX="201.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../imagenes/Ellipse%20209%20(1)%20-%20copia.png" />
+                  <Image url="@../../imagenes/rgrgrg.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="374.0" fitWidth="566.0" layoutX="-80.0" layoutY="413.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="46.0" fitWidth="190.0" layoutX="67.0" layoutY="407.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../imagenes/Ellipse%20209%20(1)%20-%20copia.png" />
+                  <Image url="@../../imagenes/lhlhlh.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="374.0" fitWidth="566.0" layoutX="-80.0" layoutY="630.0" pickOnBounds="true" preserveRatio="true">
+            <TextField fx:id="txtNombre" layoutX="67.0" layoutY="159.0" prefHeight="23.0" prefWidth="505.0" promptText="Nombres" style="-fx-background-color: f5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtApellido" layoutX="67.0" layoutY="207.0" prefHeight="23.0" prefWidth="505.0" promptText="Apellidos" style="-fx-background-color: f5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtDocumento" layoutX="67.0" layoutY="254.0" prefHeight="28.0" prefWidth="505.0" promptText="Documento" style="-fx-background-color: f5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtDireccion" layoutX="67.0" layoutY="304.0" prefHeight="8.0" prefWidth="505.0" promptText="Dirección" style="-fx-background-color: f5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtEmail" layoutX="67.0" layoutY="353.0" prefHeight="37.0" prefWidth="505.0" promptText="Email" style="-fx-background-color: f5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </TextField>
+            <ImageView fitHeight="28.0" fitWidth="38.0" layoutX="346.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../imagenes/Ellipse%20209%20(1)%20-%20copia.png" />
+                  <Image url="@../../imagenes/curriculum.png" />
                </image>
             </ImageView>
-            <ImageView fx:id="flechaRegresar" fitHeight="38.0" fitWidth="46.0" layoutX="8.0" layoutY="6.0" onMouseClicked="#flechaRegresarEvent" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="flechaRegresar" fitHeight="38.0" fitWidth="46.0" layoutX="22.0" layoutY="3.0" onMouseClicked="#flechaRegresarEvent" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../imagenes/flecha-a-la-izquierda-de-la-linea.png" />
+                  <Image url="@../../imagenes/flecha-izquierda.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="253.0" fitWidth="335.0" layoutX="72.0" layoutY="273.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="46.0" fitWidth="190.0" layoutX="67.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../imagenes/pngwing.com%20(5).png" />
+                  <Image url="@../../imagenes/polp.png" />
                </image>
             </ImageView>
+            <Button fx:id="btnRegistrarse" layoutX="353.0" layoutY="662.0" mnemonicParsing="false" onAction="#registrarseEvent" onMouseClicked="#registrarseEvent" onMouseEntered="#mouseEvent" onMouseExited="#mouseEvent2" prefHeight="44.0" prefWidth="142.0" style="-fx-background-color: #440404; -fx-background-radius: 30 30 30 30;" text="Registrarse" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="23.0" />
+               </font>
+            </Button>
+            <TextField fx:id="txtCedula" layoutX="67.0" layoutY="452.0" prefHeight="37.0" prefWidth="338.0" promptText="Nombre de usuario" style="-fx-background-color: f5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="txtContrasenia" layoutX="73.0" layoutY="504.0" prefHeight="37.0" prefWidth="328.0" promptText="Contraseña" style="-fx-background-color: #F5f2ee; -fx-text-fill: #999999; -fx-background-radius: 30 30 30 30; -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </PasswordField>
+            <Text layoutX="109.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Digite una contraseña con al menos un(a)">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#f10000" layoutX="154.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Mayúscula">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#f10000" layoutX="155.0" layoutY="604.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Minúścula">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#f10000" layoutX="246.0" layoutY="588.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Número">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#f10000" layoutX="233.0" layoutY="604.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Símbolo">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="151.0" layoutY="625.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Y al menos 8 caracteres.">
+               <font>
+                  <Font name="Arial Narrow" size="18.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="VerContrasenia1" fitHeight="21.0" fitWidth="21.0" layoutX="414.0" layoutY="512.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/invisible.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="VerContrasenia11" fitHeight="38.0" fitWidth="52.0" layoutX="476.0" layoutY="687.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../imagenes/click-izquierdo.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnSubirFoto" layoutX="556.0" layoutY="612.0" mnemonicParsing="false" onAction="#subirFotoEvent" onMouseClicked="#registrarseEvent" onMouseEntered="#mouseEvent" onMouseExited="#mouseEvent2" prefHeight="28.0" prefWidth="72.0" style="-fx-background-color: #fd7b7b; -fx-background-radius: 30 30 30 30;" text="Subir" textFill="WHITE">
+               <font>
+                  <Font name="Tw Cen MT" size="17.0" />
+               </font>
+            </Button>
+            <ImageView fitHeight="139.0" fitWidth="135.0" layoutX="503.0" layoutY="460.0" pickOnBounds="true" preserveRatio="true" />
+            <Label layoutX="443.0" layoutY="429.0" text="Seleccionar foto de perfil" textFill="#440404">
+               <font>
+                  <Font name="Tw Cen MT" size="20.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
-      <ImageView fitHeight="116.0" fitWidth="630.0" layoutX="412.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../imagenes/Imagen5.png" />
-         </image>
-      </ImageView>
-      <Label layoutX="468.0" layoutY="193.0" prefHeight="28.0" prefWidth="190.0" text="Nombres " textFill="#0676b7">
-         <font>
-            <Font name="Tw Cen MT" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="468.0" layoutY="246.0" prefHeight="28.0" prefWidth="190.0" text="Apellidos" textFill="#0676b7">
-         <font>
-            <Font name="Tw Cen MT" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="468.0" layoutY="303.0" prefHeight="28.0" prefWidth="190.0" text="Documento" textFill="#0676b7">
-         <font>
-            <Font name="Tw Cen MT" size="20.0" />
-         </font>
-      </Label>
-      <Label layoutX="468.0" layoutY="356.0" prefHeight="28.0" prefWidth="190.0" text="Dirección" textFill="#0676b7">
-         <font>
-            <Font name="Tw Cen MT" size="20.0" />
-         </font>
-      </Label>
-      <PasswordField fx:id="txtContrasenia" layoutX="462.0" layoutY="623.0" prefHeight="38.0" prefWidth="361.0" promptText="*Contraseña" style="-fx-background-color: transparent; -fx-border-color: #aaaaaa; -fx-border-width: 0 0 1 0;">
-         <font>
-            <Font name="Tw Cen MT" size="21.0" />
-         </font>
-      </PasswordField>
-      <ImageView fitHeight="29.0" fitWidth="30.0" layoutX="794.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../imagenes/lista-del-portapapeles.png" />
-         </image>
-      </ImageView>
    </children>
 </AnchorPane>
