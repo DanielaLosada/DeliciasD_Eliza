@@ -1,30 +1,30 @@
-Juan Esteban@@Nike Air force 1@@88888@@$150@@Calzado@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/Nike.jpg@@
-Juan Esteban@@Vans@@5656@@$220@@Calzado@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/Vans.jpg@@
-Juan Esteban@@Adidas Forum low@@7979@@$280@@Calzado@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/e4b262a7f0528b734751a42b34a69d9c.jpg@@
-Juan Esteban@@Puma@@4656@@$200@@Calzado@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/p.jpg@@
-Juan Esteban@@New balance@@7777@@$160@@Calzado@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/n.jpg@@
-Juan Esteban@@Gucci@@2321@@$500@@Calzado@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/gucci.jpeg@@
-Angelica Maria@@Lavadora@@8976@@$500@@Electrodomesticos@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/lavadoras.jpg@@
-Angelica Maria@@Microondas@@4563@@$100@@Electrodomesticos@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/microondas.png@@
-Angelica Maria@@Nevera@@5678@@$800@@Electrodomesticos@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/nevera.jpg@@
-Angelica Maria@@Estufa@@1290@@$600@@Electrodomesticos@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/estufa.jpg@@
-Angelica Maria@@Televisor 50'' @@8655@@$200@@Electrodomesticos@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/tv.jpg@@
-Angelica Maria@@Sanduchera@@3246@@$200@@Electrodomesticos@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/sanduchera.jpg@@
-Luisa Fernanda@@Candongas@@6541@@$600@@Joyas@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/candongas.jpg@@
-Luisa Fernanda@@Anillo@@7809@@$600@@Accesorios@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/anilloHuella.jpg@@
-Luisa Fernanda@@Pulsera@@9087@@$500@@Accesorios@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/pulsera.jpg@@
-Luisa Fernanda@@Tobillera@@1256@@$300@@Accesorios@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/tobillera.jpg@@
-Luisa Fernanda@@Collar@@1236@@$600@@Accesorios@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/collar.jpg@@
-Luisa Fernanda@@Dije@@9087@@$250@@Accesorios@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/dije.jpg@@
-Pepito Pepe@@Camiseta hombre@@3256@@$600@@Ropa@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/camiseta.jpg@@
-Pepito Pepe@@Blusa mujer@@2345@@$500@@Ropa@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/bbb.jpg@@
-Pepito Pepe@@Jean rotos unisex@@1289@@$190@@Ropa@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/jeans.jpg@@
-Pepito Pepe@@Falda cuero@@9865@@$178@@Ropa@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/falda.jpg@@
-Pepito Pepe@@Chaqueta jean hombre@@7879@@$250@@Ropa@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/chaqueta.jpg@@
-Pepito Pepe@@Sudadera@@4578@@$110@@Ropa@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/sudadera.jpg@@
-Edgar Alonso@@Martillo@@3422@@$380@@Herramientas@@Publicado@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/martillo.jpg@@
-Edgar Alonso@@Destornillador@@1289@@$450@@Herramientas@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/destornillador.jpg@@
-Edgar Alonso@@Alicate@@2342@@$290@@Herramientas@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/alicate.jpg@@
-Edgar Alonso@@Serrucho@@1092@@$100@@Herramientas@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/serrucho.jpg@@
-Edgar Alonso@@Metro@@1278@@$790@@Herramientas@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/metro.jpg@@
-Edgar Alonso@@Llave inglesa@@2312@@$360@@Herramientas@@Publicada@@C:/Users/dani4/OneDrive/Escritorio/WorkSpaces/Workspaces/WorkSpaceV/DeliciasD_Eliza/bin/imagenes/llave.jpg@@
+Juan Esteban@@Nike Air force 1@@88888@@$150@@Calzado@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/Nike.jpg@@
+Juan Esteban@@Vans@@5656@@$220@@Calzado@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/Vans.jpg@@
+Juan Esteban@@Adidas Forum low@@7979@@$280@@Calzado@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/e4b262a7f0528b734751a42b34a69d9c.jpg@@
+Juan Esteban@@Puma@@4656@@$200@@Calzado@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/p.jpg@@
+Juan Esteban@@New balance@@7777@@$160@@Calzado@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/n.jpg@@
+Juan Esteban@@Gucci@@2321@@$500@@Calzado@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/gucci.jpeg@@
+Angelica Maria@@Lavadora@@8976@@$500@@Electrodomesticos@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/lavadoras.jpg@@
+Angelica Maria@@Microondas@@4563@@$100@@Electrodomesticos@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/microondas.png@@
+Angelica Maria@@Nevera@@5678@@$800@@Electrodomesticos@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/nevera.jpg@@
+Angelica Maria@@Estufa@@1290@@$600@@Electrodomesticos@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/estufa.jpg@@
+Angelica Maria@@Televisor 50'' @@8655@@$200@@Electrodomesticos@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/tv.jpg@@
+Angelica Maria@@Sanduchera@@3246@@$200@@Electrodomesticos@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/sanduchera.jpg@@
+Luisa Fernanda@@Candongas@@6541@@$600@@Joyas@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/candongas.jpg@@
+Luisa Fernanda@@Anillo@@7809@@$600@@Accesorios@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/anilloHuella.jpg@@
+Luisa Fernanda@@Pulsera@@9087@@$500@@Accesorios@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/pulsera.jpg@@
+Luisa Fernanda@@Tobillera@@1256@@$300@@Accesorios@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/tobillera.jpg@@
+Luisa Fernanda@@Collar@@1236@@$600@@Accesorios@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/collar.jpg@@
+Luisa Fernanda@@Dije@@9087@@$250@@Accesorios@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/dije.jpg@@
+Pepito Pepe@@Camiseta hombre@@3256@@$600@@Ropa@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/camiseta.jpg@@
+Pepito Pepe@@Blusa mujer@@2345@@$500@@Ropa@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/bbb.jpg@@
+Pepito Pepe@@Jean rotos unisex@@1289@@$190@@Ropa@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/jeans.jpg@@
+Pepito Pepe@@Falda cuero@@9865@@$178@@Ropa@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/falda.jpg@@
+Pepito Pepe@@Chaqueta jean hombre@@7879@@$250@@Ropa@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/chaqueta.jpg@@
+Pepito Pepe@@Sudadera@@4578@@$110@@Ropa@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/sudadera.jpg@@
+Edgar Alonso@@Martillo@@3422@@$380@@Herramientas@@Publicado@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/martillo.jpg@@
+Edgar Alonso@@Destornillador@@1289@@$450@@Herramientas@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/destornillador.jpg@@
+Edgar Alonso@@Alicate@@2342@@$290@@Herramientas@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/alicate.jpg@@
+Edgar Alonso@@Serrucho@@1092@@$100@@Herramientas@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/serrucho.jpg@@
+Edgar Alonso@@Metro@@1278@@$790@@Herramientas@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/metro.jpg@@
+Edgar Alonso@@Llave inglesa@@2312@@$360@@Herramientas@@Publicada@@D:/Trabajo/DeliciasD_Eliza/bin/imagenes/llave.jpg@@

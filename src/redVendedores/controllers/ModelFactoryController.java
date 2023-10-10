@@ -742,6 +742,10 @@ public class ModelFactoryController {
 		return red.eliminarSolicitud(documentoAmigoS, documento);
 		
 	}
+
+	public boolean verificarCorreo(String correo) {
+		return red.verificarCorreo(correo);
+	}
 	
 
 	

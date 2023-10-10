@@ -493,6 +493,11 @@ public class Red implements Serializable{
 		}	
 		return false;	
 	}
+
+	public boolean verificarCorreo(String correo) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
 	
 
